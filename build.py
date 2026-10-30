@@ -92,6 +92,7 @@ def layout(*, title, description, path, body, json_ld=None, page_title=None):
 <meta name="theme-color" content="#e8590c">
 <link rel="icon" href="{url('/assets/favicon.svg')}" type="image/svg+xml">
 <link rel="stylesheet" href="{url('/assets/style.css')}">
+<link rel="alternate" type="application/rss+xml" title="{esc(SITE_NAME)}" href="{url('/rss.xml')}">
 {chr(10).join(head_extra)}
 </head>
 <body>
@@ -321,6 +322,17 @@ def build_meta_files(guides):
     )
     (OUT / "sitemap.xml").write_text(
         f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{entries}\n</urlset>\n',
+        encoding="utf-8",
+    )
+    items = "\n".join(
+        f"<item><title>{esc(g['title'])}</title><link>{SITE_URL}/guides/{g['slug']}/</link>"
+        f"<guid>{SITE_URL}/guides/{g['slug']}/</guid><description>{esc(g['description'])}</description></item>"
+        for g in guides
+    )
+    (OUT / "rss.xml").write_text(
+        f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>{esc(SITE_NAME)}</title>'
+        f"<link>{SITE_URL}/</link><description>에어프라이어 음식별 온도·시간과 조리 가이드</description><language>ko</language>\n"
+        f"{items}\n</channel></rss>\n",
         encoding="utf-8",
     )
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n", encoding="utf-8")
