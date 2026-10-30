@@ -13,7 +13,10 @@
 <meta property="og:url" content="https://salimdict.com/">
 <meta property="og:locale" content="ko_KR">
 <meta name="twitter:card" content="summary">
-<meta name="theme-color" content="#2f9e6e">
+<meta name="theme-color" content="#eef2ec">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&display=swap">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/style.css">
 <link rel="alternate" type="application/rss+xml" title="살림사전" href="/rss.xml">
@@ -23,40 +26,47 @@
 <body>
 <header class="site-header">
   <div class="wrap">
-    <a class="logo" href="/"><span class="logo-mark" aria-hidden="true">✿</span>살림사전</a>
+    <a class="logo" href="/">살림사전</a>
+    <span class="tagline">신혼·자취 초보를 위한 살림 꿀팁 사전</span>
   </div>
   <nav class="menu" aria-label="메뉴"><div class="wrap"><a href="/airfryer/">에어프라이어</a><a href="/microwave/">전자레인지</a><a href="/rice-water/">밥물 비율</a><a href="/boil-times/">삶는 시간</a><a href="/seasonal/">제철 달력</a><a href="/stains/">얼룩 제거</a><a href="/appliance-cleaning/">가전 청소 주기</a><a href="/houseplants/">반려식물</a><a href="/bulky-waste/">대형폐기물</a><a href="/food-waste/">음식물 쓰레기</a></div></nav>
 </header>
 <main class="wrap">
 
-<section class="hero">
-  <h1>살림사전</h1>
-  <p>신혼·자취 초보를 위한 살림 꿀팁 사전. 살림하다 막힐 때마다 검색하던 것들을 표 하나로 정리했어요. 필요한 메뉴를 골라 바로 찾아보세요.</p>
+<section class="home-search">
+  <h1>살림하다 막힐 때 찾아보는 사전</h1>
+  <label class="gsearch">
+    <span class="sr-only">전체 메뉴에서 찾기</span>
+    <input id="gq" type="search" placeholder="음식, 얼룩, 쓰레기 이름으로 찾기" autocomplete="off" data-index="/search.json">
+  </label>
+  <ul class="gresults" id="gresults" hidden></ul>
+  <p class="gempty" id="gempty" hidden>찾는 항목이 없어요. 짧게 한 단어로 검색해 보세요.</p>
 </section>
-<section><h2>요리·음식</h2><ul class="cards"><li><a href="/airfryer/"><strong><span class="icon" aria-hidden="true">⏲</span>에어프라이어 온도·시간표</strong><span>냉동식품부터 삼겹살·고구마까지 음식별 온도와 시간</span></a></li>
-<li><a href="/microwave/"><strong><span class="icon" aria-hidden="true">📡</span>전자레인지 데우기 시간표</strong><span>음식별 데우기 시간과 용기 사용 가능 여부</span></a></li>
-<li><a href="/rice-water/"><strong><span class="icon" aria-hidden="true">🍚</span>밥물·잡곡 물 비율표</strong><span>백미·현미·잡곡·찹쌀 물 비율과 불리는 시간</span></a></li>
-<li><a href="/boil-times/"><strong><span class="icon" aria-hidden="true">🥚</span>삶은 달걀·면 삶는 시간표</strong><span>반숙·완숙 달걀부터 소면·파스타까지 삶는 시간</span></a></li>
-<li><a href="/seasonal/"><strong><span class="icon" aria-hidden="true">🍓</span>과일·채소 제철 달력</strong><span>월별 제철 과일·채소와 고르는 법·보관법</span></a></li></ul></section>
-<section><h2>생활·살림</h2><ul class="cards"><li><a href="/stains/"><strong><span class="icon" aria-hidden="true">🧺</span>얼룩 종류별 지우는 법</strong><span>커피·김치국물·피·볼펜까지 얼룩별 제거법</span></a></li>
-<li><a href="/appliance-cleaning/"><strong><span class="icon" aria-hidden="true">🧽</span>가전 청소 주기표</strong><span>에어컨·세탁기·냉장고 등 가전별 청소 주기와 방법</span></a></li>
-<li><a href="/houseplants/"><strong><span class="icon" aria-hidden="true">🪴</span>반려식물 물 주기표</strong><span>몬스테라·스투키·다육이 등 식물별 물 주기와 햇빛</span></a></li>
-<li><a href="/bulky-waste/"><strong><span class="icon" aria-hidden="true">🛋</span>대형폐기물·헷갈리는 쓰레기 버리는 법</strong><span>소파·매트리스·가전·이불 품목별 버리는 방법</span></a></li>
-<li><a href="/food-waste/"><strong><span class="icon" aria-hidden="true">🗑</span>음식물 쓰레기 구분표</strong><span>닭뼈·달걀 껍데기·과일 씨 음식물 쓰레기 여부</span></a></li></ul></section>
-<section class="guides-block">
+
+<div class="month-grid" id="month" data-month="10">
+  <section class="month-card">
+    <p class="month-num"><span id="m-num">10</span><small>월</small></p>
+    <h2>지금 맛있는 제철</h2>
+    <ul class="crops" id="m-crops"><li>포도</li><li>무화과</li><li>사과</li><li>배</li><li>감·단감</li><li>밤</li><li>고구마</li><li>배추</li><li>무</li><li>연근</li></ul>
+    <a class="more" id="m-more" href="/seasonal/?q=10월">10월 제철 전체 보기</a>
+  </section>
+  <section class="todo-card">
+    <h2>이번 달에 해 두면 좋은 살림</h2>
+    <ul id="m-todo"><li><b>가전</b><a href="/appliance-cleaning/aircon-filter/">에어컨 필터 씻어 말린 뒤 커버 씌우기</a></li><li><b>가전</b><a href="/appliance-cleaning/humidifier/">가습기 꺼내면 물통은 2~3일마다 세척</a></li><li><b>식물</b><a href="/houseplants/winter-care/">찬바람 불면 물 주기 간격 늘리기</a></li></ul>
+  </section>
+</div>
+<div class="menu-cols">
+<section class="menu-list"><h2>요리·음식</h2><ul><li><a href="/airfryer/"><strong>에어프라이어 온도·시간표</strong><span>냉동식품부터 삼겹살·고구마까지 음식별 온도와 시간</span></a><em>37</em></li><li><a href="/microwave/"><strong>전자레인지 데우기 시간표</strong><span>음식별 데우기 시간과 용기 사용 가능 여부</span></a><em>36</em></li><li><a href="/rice-water/"><strong>밥물·잡곡 물 비율표</strong><span>백미·현미·잡곡·찹쌀 물 비율과 불리는 시간</span></a><em>20</em></li><li><a href="/boil-times/"><strong>삶은 달걀·면 삶는 시간표</strong><span>반숙·완숙 달걀부터 소면·파스타까지 삶는 시간</span></a><em>21</em></li><li><a href="/seasonal/"><strong>과일·채소 제철 달력</strong><span>월별 제철 과일·채소와 고르는 법·보관법</span></a><em>37</em></li></ul></section>
+<section class="menu-list"><h2>생활·살림</h2><ul><li><a href="/stains/"><strong>얼룩 종류별 지우는 법</strong><span>커피·김치국물·피·볼펜까지 얼룩별 제거법</span></a><em>20</em></li><li><a href="/appliance-cleaning/"><strong>가전 청소 주기표</strong><span>에어컨·세탁기·냉장고 등 가전별 청소 주기와 방법</span></a><em>24</em></li><li><a href="/houseplants/"><strong>반려식물 물 주기표</strong><span>몬스테라·스투키·다육이 등 식물별 물 주기와 햇빛</span></a><em>26</em></li><li><a href="/bulky-waste/"><strong>대형폐기물·헷갈리는 쓰레기 버리는 법</strong><span>소파·매트리스·가전·이불 품목별 버리는 방법</span></a><em>26</em></li><li><a href="/food-waste/"><strong>음식물 쓰레기 구분표</strong><span>닭뼈·달걀 껍데기·과일 씨 음식물 쓰레기 여부</span></a><em>31</em></li></ul></section>
+</div>
+<section class="menu-list guides-list">
   <h2>살림 가이드</h2>
-  <ul class="cards">
-<li><a href="/airfryer/basics-preheat/"><strong>에어프라이어 예열, 꼭 해야 할까? 기본 사용법 총정리</strong><span>에어프라이어 예열이 필요한 경우와 필요 없는 경우, 온도·시간 정하는 법, 바스켓 흔들기 타이밍까지 처음 쓰는 분을 위한 기본 사용법을 정리했습니다.</span></a></li>
-<li><a href="/airfryer/first-use/"><strong>새 에어프라이어 처음 사용법, 공회전과 플라스틱 냄새 없애기</strong><span>새로 산 에어프라이어를 처음 쓰기 전에 해야 할 세척과 공회전 방법, 사라지지 않는 냄새를 줄이는 요령을 정리했습니다.</span></a></li>
-<li><a href="/airfryer/frozen-french-fries/"><strong>에어프라이어 냉동 감자튀김 바삭하게, 온도·시간과 실패 원인</strong><span>에어프라이어로 냉동 감자튀김을 굽는 온도와 시간, 눅눅해지는 이유와 바삭하게 만드는 요령, 두께별 시간 차이를 정리했습니다.</span></a></li>
-<li><a href="/airfryer/frozen-dumplings/"><strong>에어프라이어 냉동 만두 굽기, 군만두처럼 바삭하게</strong><span>에어프라이어로 냉동 만두를 굽는 온도와 시간, 만두피가 딱딱해지지 않게 하는 기름·물 요령, 만두 종류별 차이를 정리했습니다.</span></a></li>
-<li><a href="/airfryer/pork-belly/"><strong>에어프라이어 삼겹살 굽기, 온도·시간과 기름 튐 없이 바삭하게</strong><span>에어프라이어로 삼겹살을 굽는 온도와 시간, 두께별 차이, 기름 튐과 연기를 줄이는 방법, 통삼겹 굽는 법까지 정리했습니다.</span></a></li>
-<li><a href="/airfryer/whole-chicken/"><strong>에어프라이어 통닭 굽기, 1kg 기준 온도·시간과 속까지 익히는 법</strong><span>에어프라이어로 통닭을 구울 때 무게별 온도와 시간, 밑간과 뒤집는 타이밍, 속까지 익었는지 확인하는 방법을 정리했습니다.</span></a></li>
-<li><a href="/airfryer/chicken-wings/"><strong>에어프라이어 닭봉·닭날개 바삭하게 굽기, 2단계 온도 비법</strong><span>에어프라이어로 닭봉과 닭날개를 겉은 바삭하고 속은 촉촉하게 굽는 2단계 온도·시간, 밑간과 소스 버무리는 타이밍을 정리했습니다.</span></a></li>
-<li><a href="/airfryer/sweet-potato/"><strong>에어프라이어 군고구마, 크기별 온도·시간과 꿀고구마 만드는 법</strong><span>에어프라이어로 군고구마를 구울 때 크기별 온도와 시간, 촉촉한 꿀고구마로 만드는 저온 조리 요령, 남은 고구마 보관법을 정리했습니다.</span></a></li>
-<li><a href="/airfryer/baked-eggs/"><strong>에어프라이어 구운 계란 만들기, 반숙·완숙·맥반석 시간표</strong><span>에어프라이어로 구운 계란을 만들 때 반숙, 완숙, 맥반석 계란별 온도와 시간, 계란이 터지지 않게 하는 방법을 정리했습니다.</span></a></li>
+  <ul>
+<li><a href="/airfryer/basics-preheat/"><strong>에어프라이어 예열, 꼭 해야 할까? 기본 사용법 총정리</strong></a></li><li><a href="/airfryer/first-use/"><strong>새 에어프라이어 처음 사용법, 공회전과 플라스틱 냄새 없애기</strong></a></li><li><a href="/airfryer/frozen-french-fries/"><strong>에어프라이어 냉동 감자튀김 바삭하게, 온도·시간과 실패 원인</strong></a></li><li><a href="/airfryer/frozen-dumplings/"><strong>에어프라이어 냉동 만두 굽기, 군만두처럼 바삭하게</strong></a></li><li><a href="/airfryer/pork-belly/"><strong>에어프라이어 삼겹살 굽기, 온도·시간과 기름 튐 없이 바삭하게</strong></a></li><li><a href="/airfryer/whole-chicken/"><strong>에어프라이어 통닭 굽기, 1kg 기준 온도·시간과 속까지 익히는 법</strong></a></li><li><a href="/airfryer/chicken-wings/"><strong>에어프라이어 닭봉·닭날개 바삭하게 굽기, 2단계 온도 비법</strong></a></li><li><a href="/airfryer/sweet-potato/"><strong>에어프라이어 군고구마, 크기별 온도·시간과 꿀고구마 만드는 법</strong></a></li><li><a href="/airfryer/baked-eggs/"><strong>에어프라이어 구운 계란 만들기, 반숙·완숙·맥반석 시간표</strong></a></li><li><a href="/airfryer/fish-salmon/"><strong>에어프라이어 생선구이, 고등어·연어 냄새 없이 굽는 온도와 시간</strong></a></li>
   </ul>
 </section>
+<script type="application/json" id="month-data">{"crops": {"1": ["딸기", "귤", "한라봉·천혜향", "시금치", "연근", "봄동"], "2": ["딸기", "한라봉·천혜향", "시금치", "연근", "봄동", "냉이", "달래"], "3": ["딸기", "한라봉·천혜향", "연근", "봄동", "냉이", "달래", "쑥", "미나리"], "4": ["딸기", "참외", "양파(햇양파)", "달래", "쑥", "미나리", "두릅", "아스파라거스"], "5": ["참외", "토마토", "오이", "양파(햇양파)", "마늘(햇마늘)", "두릅", "아스파라거스"], "6": ["참외", "수박", "자두", "블루베리", "매실", "토마토", "오이", "애호박", "감자", "깻잎", "양파(햇양파)", "마늘(햇마늘)", "아스파라거스"], "7": ["참외", "수박", "복숭아", "자두", "블루베리", "토마토", "오이", "애호박", "가지", "옥수수", "감자", "깻잎", "단호박"], "8": ["수박", "복숭아", "자두", "블루베리", "포도", "무화과", "토마토", "오이", "애호박", "가지", "옥수수", "감자", "깻잎", "단호박"], "9": ["포도", "무화과", "사과", "배", "밤", "애호박", "가지", "고구마", "깻잎", "단호박"], "10": ["포도", "무화과", "사과", "배", "감·단감", "밤", "고구마", "배추", "무", "연근"], "11": ["귤", "사과", "배", "감·단감", "고구마", "배추", "무", "시금치", "연근"], "12": ["딸기", "귤", "배추", "무", "시금치", "연근"]}, "todo": {"1": [["가전", "가습기 물통은 매일 물을 갈고 2~3일마다 세척", "/appliance-cleaning/humidifier/"], ["식물", "창가 찬 공기를 피해 화분을 실내 안쪽으로", "/houseplants/winter-care/"], ["음식", "겨울 제철 과일·채소 고르는 법 확인", "/seasonal/winter-produce/"]], "2": [["가전", "냉장고 칸별로 비우고 선반 닦기", "/appliance-cleaning/fridge-cleaning/"], ["식물", "물은 따뜻한 오전에, 흙이 마른 뒤 주기", "/houseplants/watering-basics/"], ["가전", "가습기 물통 세척 주기 지키기", "/appliance-cleaning/humidifier/"]], "3": [["식물", "봄맞이 물 주기 기본 다시 보기", "/houseplants/watering-basics/"], ["음식", "봄 제철 채소 고르는 법", "/seasonal/spring-produce/"], ["생활", "이사철, 대형폐기물 배출 신고 미리 하기", "/bulky-waste/moving-disposal/"]], "4": [["가전", "에어컨 꺼내기 전 필터 청소", "/appliance-cleaning/aircon-filter/"], ["가전", "주방 후드 기름때 청소", "/appliance-cleaning/range-hood/"], ["음식", "봄 제철 과일·채소 확인", "/seasonal/spring-produce/"]], "5": [["가전", "에어컨 필터 청소하고 시운전", "/appliance-cleaning/aircon-filter/"], ["식물", "과습 신호 확인하기", "/houseplants/overwatering-signs/"], ["생활", "얼룩 지우는 기본 순서 익혀 두기", "/stains/stain-basics/"]], "6": [["생활", "음식물 쓰레기는 매일 비워 초파리 막기", "/food-waste/odor-flies/"], ["가전", "세탁기 통세척으로 쉰내 잡기", "/appliance-cleaning/washing-machine-tub/"], ["생활", "누렇게 변한 땀 얼룩 미리 빨기", "/stains/yellow-sweat-stain/"]], "7": [["가전", "에어컨 필터는 2주마다 청소", "/appliance-cleaning/aircon-filter/"], ["음식", "여름 제철 과일·채소 고르는 법", "/seasonal/summer-produce/"], ["생활", "수박 같은 과일 껍질 버리는 법", "/food-waste/fruit-peels/"]], "8": [["가전", "세탁기 통세척 한 번 더", "/appliance-cleaning/washing-machine-tub/"], ["생활", "음식물 쓰레기 냄새·날파리 줄이기", "/food-waste/odor-flies/"], ["생활", "땀 얼룩은 바로 빨기", "/stains/yellow-sweat-stain/"]], "9": [["가전", "에어컨 필터 씻어 말리고 정리 준비", "/appliance-cleaning/aircon-filter/"], ["가전", "명절 전 냉장고 비우고 정리", "/appliance-cleaning/fridge-cleaning/"], ["음식", "가을 제철 과일·채소 고르는 법", "/seasonal/autumn-produce/"]], "10": [["가전", "에어컨 필터 씻어 말린 뒤 커버 씌우기", "/appliance-cleaning/aircon-filter/"], ["가전", "가습기 꺼내면 물통은 2~3일마다 세척", "/appliance-cleaning/humidifier/"], ["식물", "찬바람 불면 물 주기 간격 늘리기", "/houseplants/winter-care/"]], "11": [["생활", "김장철 김칫국물 얼룩 지우는 법", "/stains/kimchi-stain/"], ["식물", "겨울나기 준비, 화분 실내로 들이기", "/houseplants/winter-care/"], ["가전", "가습기 물통 세척 주기 지키기", "/appliance-cleaning/humidifier/"]], "12": [["가전", "연말 냉장고 정리", "/appliance-cleaning/fridge-cleaning/"], ["생활", "연말 대형폐기물 신고 방법", "/bulky-waste/how-to-report/"], ["음식", "겨울 제철 과일·채소 고르는 법", "/seasonal/winter-produce/"]]}, "seasonal": "/seasonal/"}</script>
+<script src="/assets/home.js" defer></script>
 
 </main>
 <footer class="site-footer">

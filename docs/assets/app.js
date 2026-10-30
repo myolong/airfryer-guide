@@ -23,6 +23,9 @@
   }
 
   q.addEventListener('input', apply);
+  // 홈 통합 검색에서 넘어온 검색어 (?q=)
+  var pre = new URLSearchParams(location.search).get('q');
+  if (pre) { q.value = pre; apply(); }
   chips.forEach(function (c) {
     c.addEventListener('click', function () {
       cat = c.dataset.cat;

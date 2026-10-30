@@ -116,7 +116,10 @@ def layout(*, title, description, path, body, sections, json_ld=None, page_title
 <meta property="og:url" content="{esc(canonical)}">
 <meta property="og:locale" content="ko_KR">
 <meta name="twitter:card" content="summary">
-<meta name="theme-color" content="#2f9e6e">
+<meta name="theme-color" content="#eef2ec">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&display=swap">
 <link rel="icon" href="{url('/assets/favicon.svg')}" type="image/svg+xml">
 <link rel="stylesheet" href="{url('/assets/style.css')}">
 <link rel="alternate" type="application/rss+xml" title="{esc(SITE_NAME)}" href="{url('/rss.xml')}">
@@ -125,7 +128,8 @@ def layout(*, title, description, path, body, sections, json_ld=None, page_title
 <body>
 <header class="site-header">
   <div class="wrap">
-    <a class="logo" href="{url('/')}"><span class="logo-mark" aria-hidden="true">✿</span>{esc(SITE_NAME)}</a>
+    <a class="logo" href="{url('/')}">{esc(SITE_NAME)}</a>
+    <span class="tagline">{esc(SITE_TAGLINE)}</span>
   </div>
   <nav class="menu" aria-label="메뉴"><div class="wrap">{nav}</div></nav>
 </header>
@@ -193,27 +197,91 @@ def item_rows(section):
     return "\n".join(rows)
 
 
+def month_data(sections):
+    """홈 '이달의 살림' 칸에 쓸 월별 제철 품목과 할 일."""
+    seasonal = next((s for s in sections if s["id"] == "seasonal"), None)
+    crops = {str(m): [] for m in range(1, 13)}
+    if seasonal:
+        for item in seasonal["items"]:
+            for a in item.get("aka", []):
+                if re.fullmatch(r"\d{1,2}월", a):
+                    crops[a[:-1]].append(item["name"])
+    todo = json.loads((SRC / "monthly.json").read_text(encoding="utf-8"))
+    todo = {m: [[t, text, url(path)] for t, text, path in rows] for m, rows in todo.items()}
+    return {"crops": crops, "todo": todo, "seasonal": url("/seasonal/")}
+
+
+def month_html(data, m):
+    crops = "".join(f"<li>{esc(c)}</li>" for c in data["crops"][str(m)])
+    todo = "".join(
+        f'<li><b>{esc(t)}</b><a href="{esc(link)}">{esc(text)}</a></li>' for t, text, link in data["todo"][str(m)]
+    )
+    return f"""
+<div class="month-grid" id="month" data-month="{m}">
+  <section class="month-card">
+    <p class="month-num"><span id="m-num">{m}</span><small>월</small></p>
+    <h2>지금 맛있는 제철</h2>
+    <ul class="crops" id="m-crops">{crops}</ul>
+    <a class="more" id="m-more" href="{data['seasonal']}?q={m}월">{m}월 제철 전체 보기</a>
+  </section>
+  <section class="todo-card">
+    <h2>이번 달에 해 두면 좋은 살림</h2>
+    <ul id="m-todo">{todo}</ul>
+  </section>
+</div>"""
+
+
+def search_index(sections):
+    """홈 통합 검색용 인덱스: 모든 메뉴의 표 항목."""
+    rows = []
+    for s in sections:
+        guides = {g["slug"] for g in s["guides"]}
+        cols = [c for c in s["columns"] if c["key"] != "name"][:2]
+        for item in s["items"]:
+            summary = " · ".join(f'{c["label"]} {item[c["key"]]}' for c in cols if item.get(c["key"]))
+            link = s["path"] + item["guide"] + "/" if item.get("guide") in guides else s["path"] + "?q=" + item["name"]
+            rows.append({"n": item["name"], "k": item.get("aka", []), "s": s["short"], "d": summary, "u": url(link)})
+    return rows
+
+
 def build_home(sections):
+    data = month_data(sections)
     groups = {}
     for s in sections:
         groups.setdefault(s["group"], []).append(s)
     blocks = "\n".join(
-        f'<section><h2>{esc(g)}</h2><ul class="cards">{section_cards(items)}</ul></section>'
+        f'<section class="menu-list"><h2>{esc(g)}</h2><ul>'
+        + "".join(
+            f'<li><a href="{url(s["path"])}"><strong>{esc(s["title"])}</strong><span>{esc(s["card"])}</span></a>'
+            f'<em>{len(s["items"])}</em></li>'
+            for s in items
+        )
+        + "</ul></section>"
         for g, items in groups.items()
     )
     all_guides = [g for s in sections for g in s["guides"]]
     body = f"""
-<section class="hero">
-  <h1>{esc(SITE_NAME)}</h1>
-  <p>{esc(SITE_TAGLINE)}. 살림하다 막힐 때마다 검색하던 것들을 표 하나로 정리했어요. 필요한 메뉴를 골라 바로 찾아보세요.</p>
+<section class="home-search">
+  <h1>살림하다 막힐 때 찾아보는 사전</h1>
+  <label class="gsearch">
+    <span class="sr-only">전체 메뉴에서 찾기</span>
+    <input id="gq" type="search" placeholder="음식, 얼룩, 쓰레기 이름으로 찾기" autocomplete="off" data-index="{url('/search.json')}">
+  </label>
+  <ul class="gresults" id="gresults" hidden></ul>
+  <p class="gempty" id="gempty" hidden>찾는 항목이 없어요. 짧게 한 단어로 검색해 보세요.</p>
 </section>
+{month_html(data, date.today().month)}
+<div class="menu-cols">
 {blocks}
-<section class="guides-block">
+</div>
+<section class="menu-list guides-list">
   <h2>살림 가이드</h2>
-  <ul class="cards">
-{guide_cards(all_guides[:9])}
+  <ul>
+{"".join(f'<li><a href="{url(g["path"])}"><strong>{esc(g["title"])}</strong></a></li>' for g in all_guides[:10])}
   </ul>
 </section>
+<script type="application/json" id="month-data">{json.dumps(data, ensure_ascii=False)}</script>
+<script src="{url('/assets/home.js')}" defer></script>
 """
     json_ld = {"@context": "https://schema.org", "@type": "WebSite", "name": SITE_NAME, "url": SITE_URL + "/", "inLanguage": "ko"}
     write("/", layout(
@@ -221,6 +289,7 @@ def build_home(sections):
         description=f"{SITE_TAGLINE}. " + ", ".join(s["short"] for s in sections) + " 정보를 검색표와 가이드로 한눈에 정리했습니다.",
         path="/", body=body, sections=sections, json_ld=json_ld,
     ))
+    (OUT / "search.json").write_text(json.dumps(search_index(sections), ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
 def build_section(section, sections):
