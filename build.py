@@ -397,6 +397,9 @@ def main():
         shutil.rmtree(OUT)
     OUT.mkdir()
     shutil.copytree(SRC / "assets", OUT / "assets")
+    # 검색엔진 인증 파일처럼 사이트 루트에 그대로 둘 파일
+    for f in (SRC / "root").glob("*"):
+        shutil.copy(f, OUT / f.name)
     sections = read_sections()
     build_home(sections)
     for s in sections:
