@@ -185,12 +185,9 @@ def item_rows(section):
                 if item.get("cat"):
                     value += f'<span class="cat-tag">{esc(item["cat"])}</span>'
                 cells.append(f'<td class="food">{value}</td>')
-            elif col.get("num"):
-                cells.append(f'<td class="num">{value}</td>')
-            elif col.get("tip"):
-                cells.append(f'<td class="tip">{value}</td>')
             else:
-                cells.append(f"<td>{value}</td>")
+                cls = "num" if col.get("num") else "tip" if col.get("tip") else "text"
+                cells.append(f'<td class="{cls}" data-label="{esc(col["label"])}">{value}</td>')
         search = " ".join([item.get("name", "")] + item.get("aka", []))
         rows.append(f'<tr data-cat="{esc(item.get("cat", ""))}" data-name="{esc(search)}">' + "".join(cells) + "</tr>")
     return "\n".join(rows)

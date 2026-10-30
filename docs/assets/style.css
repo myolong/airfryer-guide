@@ -38,9 +38,11 @@ tr:last-child td{border-bottom:0}
 .tip{color:var(--muted);font-size:14px}
 @media (max-width:560px){
   .food-table thead{display:none}
-  .food-table tr{display:grid;grid-template-columns:1fr auto auto;gap:2px 12px;padding:10px 12px;border-bottom:1px solid var(--line)}
-  .food-table td{border:0;padding:0}
-  .food-table .tip{grid-column:1/-1}
+  .food-table tr{display:block;padding:12px;border-bottom:1px solid var(--line)}
+  .food-table td{display:block;border:0;padding:2px 0}
+  .food-table td.num{display:inline-block;margin-right:14px}
+  .food-table td[data-label]::before{content:attr(data-label);font-size:12px;font-weight:400;color:var(--muted);margin-right:6px}
+  .food-table td.text,.food-table td.tip{font-size:14px}
 }
 .article table{margin:12px 0;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--card);display:block;overflow-x:auto}
 .empty,.note,.meta{color:var(--muted);font-size:14px}
