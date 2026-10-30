@@ -1,5 +1,5 @@
-:root{--bg:#fffaf5;--card:#fff;--ink:#2b2420;--muted:#6f645c;--line:#efe3d8;--accent:#e8590c;--accent-soft:#fff0e6;--radius:12px}
-@media (prefers-color-scheme:dark){:root{--bg:#1b1714;--card:#25201c;--ink:#f3ece6;--muted:#b3a79d;--line:#3a322c;--accent:#ff8a4c;--accent-soft:#3a2518}}
+:root{--bg:#fbfaf6;--card:#fff;--ink:#26302b;--muted:#5f6b64;--line:#e4e8e1;--accent:#2f8f63;--accent-soft:#eaf5ee;--radius:12px}
+@media (prefers-color-scheme:dark){:root{--bg:#151a17;--card:#1e2420;--ink:#ecf1ed;--muted:#a6b2ab;--line:#323b35;--accent:#5cc895;--accent-soft:#1f3328}}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;word-break:keep-all;overflow-wrap:anywhere}
@@ -10,9 +10,12 @@ a{color:var(--accent)}
 .site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:56px;flex-wrap:wrap}
 .logo{font-weight:800;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:6px}
 .logo-mark{color:var(--accent)}
-.site-header nav{display:flex;gap:14px}
-.site-header nav a{color:var(--muted);text-decoration:none;font-size:15px}
-.site-header nav a:hover{color:var(--accent)}
+.menu{border-top:1px solid var(--line)}
+.site-header .menu .wrap{justify-content:flex-start;flex-wrap:nowrap;display:flex;gap:18px;overflow-x:auto;white-space:nowrap;scrollbar-width:none;min-height:44px;align-items:center}
+.menu .wrap::-webkit-scrollbar{display:none}
+.menu a{color:var(--muted);text-decoration:none;font-size:15px;padding:10px 0;border-bottom:2px solid transparent}
+.menu a:hover,.menu a[aria-current]{color:var(--accent);border-bottom-color:var(--accent)}
+.icon{margin-right:6px}
 main.wrap{padding-top:28px;padding-bottom:48px}
 h1{font-size:1.75rem;line-height:1.35;margin:0 0 12px}
 h2{font-size:1.3rem;margin:36px 0 10px}
