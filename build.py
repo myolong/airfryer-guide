@@ -17,9 +17,9 @@ from datetime import date
 from pathlib import Path
 
 # ── 사이트 설정 (도메인·애드센스가 정해지면 여기만 바꾸고 다시 빌드) ──────────
-SITE_URL = "https://myolong.github.io/airfryer-guide"  # 개인 도메인 연결 후 "https://도메인" 으로 변경
-CUSTOM_DOMAIN = ""  # 예: "salimnote.com" → docs/CNAME 생성
-SITE_NAME = "초보 살림 노트"
+SITE_URL = "https://salimdict.com"
+CUSTOM_DOMAIN = "salimdict.com"
+SITE_NAME = "살림사전"
 SITE_TAGLINE = "신혼·자취 초보를 위한 살림 꿀팁 사전"
 CONTACT_EMAIL = ""  # 문의용 이메일 (본업과 분리된 주소)
 ADSENSE_CLIENT = ""  # 예: "ca-pub-1234567890123456" → 광고 스크립트·ads.txt 생성
@@ -188,7 +188,7 @@ def item_rows(section):
             else:
                 cls = "num" if col.get("num") else "tip" if col.get("tip") else "text"
                 cells.append(f'<td class="{cls}" data-label="{esc(col["label"])}">{value}</td>')
-        search = " ".join([item.get("name", "")] + item.get("aka", []))
+        search = "|".join([item.get("name", "")] + item.get("aka", []))
         rows.append(f'<tr data-cat="{esc(item.get("cat", ""))}" data-name="{esc(search)}">' + "".join(cells) + "</tr>")
     return "\n".join(rows)
 

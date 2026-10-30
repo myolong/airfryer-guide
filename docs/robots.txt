@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://myolong.github.io/airfryer-guide/sitemap.xml
+Sitemap: https://salimdict.com/sitemap.xml

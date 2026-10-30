@@ -11,7 +11,11 @@
     var term = norm(q.value);
     var shown = 0;
     rows.forEach(function (tr) {
-      var ok = (!cat || tr.dataset.cat === cat) && (!term || norm(tr.dataset.name).indexOf(term) !== -1);
+      var tokens = norm(tr.dataset.name).split('|');
+      var hit = !term || (/^\d{1,2}월$/.test(term)
+        ? tokens.indexOf(term) !== -1
+        : tokens.some(function (t) { return t.indexOf(term) !== -1; }));
+      var ok = (!cat || tr.dataset.cat === cat) && hit;
       tr.hidden = !ok;
       if (ok) shown++;
     });
