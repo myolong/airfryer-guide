@@ -24,7 +24,7 @@ SITE_TAGLINE = "신혼·자취 초보를 위한 살림 꿀팁 사전"
 CONTACT_EMAIL = ""  # 문의용 이메일 (본업과 분리된 주소)
 ADSENSE_CLIENT = ""  # 예: "ca-pub-1234567890123456" → 광고 스크립트·ads.txt 생성
 GOOGLE_VERIFICATION = ""  # 구글 서치 콘솔 HTML 태그의 content 값
-NAVER_VERIFICATION = ""  # 네이버 서치어드바이저 HTML 태그의 content 값
+NAVER_VERIFICATION = "13d3ccf72af450f82fee86d4abf552ce46c9e7df"  # 네이버 서치어드바이저 HTML 태그의 content 값
 UPDATED = date.today().isoformat()
 # ───────────────────────────────────────────────────────────────────────
 
