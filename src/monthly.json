@@ -9,6 +9,6 @@
  "8": [["가전", "세탁기 통세척 한 번 더", "/appliance-cleaning/washing-machine-tub/"], ["생활", "음식물 쓰레기 냄새·날파리 줄이기", "/food-waste/odor-flies/"], ["생활", "땀 얼룩은 바로 빨기", "/stains/yellow-sweat-stain/"]],
  "9": [["가전", "에어컨 필터 씻어 말리고 정리 준비", "/appliance-cleaning/aircon-filter/"], ["가전", "명절 전 냉장고 비우고 정리", "/appliance-cleaning/fridge-cleaning/"], ["음식", "가을 제철 과일·채소 고르는 법", "/seasonal/autumn-produce/"]],
  "10": [["가전", "에어컨 필터 씻어 말린 뒤 커버 씌우기", "/appliance-cleaning/aircon-filter/"], ["가전", "가습기 꺼내면 물통은 2~3일마다 세척", "/appliance-cleaning/humidifier/"], ["식물", "찬바람 불면 물 주기 간격 늘리기", "/houseplants/winter-care/"]],
- "11": [["생활", "김장철 김칫국물 얼룩 지우는 법", "/stains/kimchi-stain/"], ["식물", "겨울나기 준비, 화분 실내로 들이기", "/houseplants/winter-care/"], ["가전", "가습기 물통 세척 주기 지키기", "/appliance-cleaning/humidifier/"]],
+ "11": [["음식", "김장 후 남은 배추는 신문지에 싸서 서늘한 곳에 세워, 무는 잎을 자르고 신문지에 싸서 냉장", "/seasonal/winter-produce/"], ["가전", "가습기 꺼내기 전 물통·필터 세척하고 완전히 말리기", "/appliance-cleaning/humidifier/"], ["생활", "겨울 이불은 덮기 전에 세탁하고 햇볕에 바짝 말리기", ""], ["생활", "김장철 김칫국물 얼룩 지우는 법", "/stains/kimchi-stain/"], ["식물", "겨울나기 준비, 화분 실내로 들이기", "/houseplants/winter-care/"]],
  "12": [["가전", "연말 냉장고 정리", "/appliance-cleaning/fridge-cleaning/"], ["생활", "연말 대형폐기물 신고 방법", "/bulky-waste/how-to-report/"], ["음식", "겨울 제철 과일·채소 고르는 법", "/seasonal/winter-produce/"]]
 }

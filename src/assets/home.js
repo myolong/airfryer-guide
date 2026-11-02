@@ -8,7 +8,7 @@
     document.getElementById('m-num').textContent = m;
     document.getElementById('m-crops').innerHTML = data.crops[m].map(function (c) { return '<li>' + esc(c) + '</li>'; }).join('');
     document.getElementById('m-todo').innerHTML = data.todo[m].map(function (t) {
-      return '<li><b>' + esc(t[0]) + '</b><a href="' + esc(t[2]) + '">' + esc(t[1]) + '</a></li>';
+      return '<li><b>' + esc(t[0]) + '</b>' + (t[2] ? '<a href="' + esc(t[2]) + '">' + esc(t[1]) + '</a>' : '<span>' + esc(t[1]) + '</span>') + '</li>';
     }).join('');
     var more = document.getElementById('m-more');
     more.href = data.seasonal + '?q=' + m + '월';

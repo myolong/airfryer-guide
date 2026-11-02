@@ -207,14 +207,15 @@ def month_data(sections):
                 if re.fullmatch(r"\d{1,2}월", a):
                     crops[a[:-1]].append(item["name"])
     todo = json.loads((SRC / "monthly.json").read_text(encoding="utf-8"))
-    todo = {m: [[t, text, url(path)] for t, text, path in rows] for m, rows in todo.items()}
+    todo = {m: [[t, text, url(path) if path else ""] for t, text, path in rows] for m, rows in todo.items()}
     return {"crops": crops, "todo": todo, "seasonal": url("/seasonal/")}
 
 
 def month_html(data, m):
     crops = "".join(f"<li>{esc(c)}</li>" for c in data["crops"][str(m)])
     todo = "".join(
-        f'<li><b>{esc(t)}</b><a href="{esc(link)}">{esc(text)}</a></li>' for t, text, link in data["todo"][str(m)]
+        f'<li><b>{esc(t)}</b>' + (f'<a href="{esc(link)}">{esc(text)}</a>' if link else f"<span>{esc(text)}</span>") + "</li>"
+        for t, text, link in data["todo"][str(m)]
     )
     return f"""
 <div class="month-grid" id="month" data-month="{m}">
