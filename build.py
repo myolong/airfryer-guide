@@ -260,7 +260,12 @@ def build_home(sections):
         + "</ul></section>"
         for g, items in groups.items()
     )
-    all_guides = [g for s in sections for g in s["guides"]]
+    # 메뉴마다 돌아가며 하나씩 골라 홈 가이드 목록이 한 메뉴에 쏠리지 않게 한다.
+    picked, depth = [], 0
+    while len(picked) < 12 and any(len(s["guides"]) > depth for s in sections):
+        picked += [s["guides"][depth] for s in sections if len(s["guides"]) > depth]
+        depth += 1
+    all_guides = picked[:12]
     body = f"""
 <section class="home-search">
   <h1>살림하다 막힐 때 찾아보는 사전</h1>
@@ -278,7 +283,7 @@ def build_home(sections):
 <section class="menu-list guides-list">
   <h2>살림 가이드</h2>
   <ul>
-{"".join(f'<li><a href="{url(g["path"])}"><strong>{esc(g["title"])}</strong></a></li>' for g in all_guides[:10])}
+{"".join(f'<li><a href="{url(g["path"])}"><strong>{esc(g["title"])}</strong></a></li>' for g in all_guides)}
   </ul>
 </section>
 <script type="application/json" id="month-data">{json.dumps(data, ensure_ascii=False)}</script>
