@@ -20,6 +20,9 @@ h1,h2,h3,.logo{font-family:var(--serif);text-wrap:balance}
 .menu{border-bottom:1px solid var(--line)}
 .site-header .menu .wrap{justify-content:flex-start;flex-wrap:nowrap;display:flex;gap:20px;overflow-x:auto;white-space:nowrap;scrollbar-width:none;min-height:44px;align-items:center;padding-top:0}
 .menu .wrap::-webkit-scrollbar{display:none}
+/* 넓은 화면은 메뉴를 여러 줄로 모두 보여 주고, 휴대폰은 옆으로 밀어 보게 끝을 흐리게 */
+@media (min-width:721px){.site-header .menu .wrap{flex-wrap:wrap;overflow:visible;white-space:normal;row-gap:0;padding-block:4px}.site-header .menu a{white-space:nowrap;padding:7px 0}}
+@media (max-width:720px){.site-header .menu .wrap{-webkit-mask-image:linear-gradient(to right,#000 85%,transparent);mask-image:linear-gradient(to right,#000 85%,transparent);padding-right:40px}}
 .menu a{color:var(--muted);text-decoration:none;font-size:15px;padding:10px 0;border-bottom:2px solid transparent}
 .menu a:hover,.menu a[aria-current]{color:var(--ink);border-bottom-color:var(--persim)}
 
