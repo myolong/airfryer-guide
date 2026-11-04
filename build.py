@@ -188,6 +188,13 @@ def item_rows(section):
                     value = f'<a href="{url("/" + section["id"] + "/" + item["guide"] + "/")}">{value}</a>'
                 if item.get("cat"):
                     value += f'<span class="cat-tag">{esc(item["cat"])}</span>'
+                if item.get("photo"):
+                    # 사진은 바로 보이지 않게 접어 두고, 눌러야 펼쳐진다 (출처 표기 포함)
+                    value += (
+                        f'<details class="photo"><summary>사진 보기</summary>'
+                        f'<img src="{url("/" + section["id"] + "/photos/" + item["photo"])}" alt="{esc(item["name"])} 사진" loading="lazy">'
+                        f'<small>{esc(item.get("credit", ""))}</small></details>'
+                    )
                 cells.append(f'<td class="food">{value}</td>')
             else:
                 cls = "num" if col.get("num") else "tip" if col.get("tip") else "text"
@@ -479,6 +486,9 @@ def main():
     build_home(sections)
     for s in sections:
         build_section(s, sections)
+        photos = SRC / "sections" / s["id"] / "photos"
+        if photos.exists():
+            shutil.copytree(photos, OUT / s["id"] / "photos")
     build_static_pages(sections)
     build_meta_files(sections)
     total = sum(len(s["guides"]) for s in sections)
