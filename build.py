@@ -19,8 +19,8 @@ from pathlib import Path
 # ── 사이트 설정 (도메인·애드센스가 정해지면 여기만 바꾸고 다시 빌드) ──────────
 SITE_URL = "https://salimdict.com"
 CUSTOM_DOMAIN = "salimdict.com"
-SITE_NAME = "살림사전"
-SITE_TAGLINE = "신혼·자취 초보를 위한 살림 꿀팁 사전"
+SITE_NAME = "살림컨닝"
+SITE_TAGLINE = "신혼·자취 초보를 위한 살림 컨닝페이퍼"
 CONTACT_EMAIL = "salimdict.help@gmail.com"  # 문의용 이메일 (본업과 분리된 주소)
 ADSENSE_CLIENT = "ca-pub-5781805498180631"  # 예: "ca-pub-1234567890123456" → 광고 스크립트·ads.txt 생성
 GOOGLE_VERIFICATION = ""  # 구글 서치 콘솔 HTML 태그의 content 값
@@ -275,7 +275,7 @@ def build_home(sections):
     all_guides = picked[:12]
     body = f"""
 <section class="home-search">
-  <h1>살림하다 막힐 때 찾아보는 사전</h1>
+  <h1>살림하다 막힐 때 꺼내 보는 컨닝페이퍼</h1>
   <label class="gsearch">
     <span class="sr-only">전체 메뉴에서 찾기</span>
     <input id="gq" type="search" placeholder="음식, 얼룩, 쓰레기 이름으로 찾기" autocomplete="off" data-index="{url('/search.json')}">
@@ -401,9 +401,9 @@ def build_static_pages(sections):
     )
     menu_list = "".join(f"<li>{esc(s['title'])}</li>" for s in sections)
     pages = {
-        "/about/": ("사이트 소개", f"{SITE_NAME}는 신혼·자취를 시작한 살림 초보가 매번 검색하던 정보를 검색표와 가이드로 정리한 생활 정보 사이트입니다.", f"""
+        "/about/": ("사이트 소개", f"{SITE_NAME}은 신혼·자취를 시작한 살림 초보가 매번 검색하던 정보를 검색표와 가이드로 정리한 생활 정보 사이트입니다.", f"""
 <h1>사이트 소개</h1>
-<p>살림을 처음 시작하면 "고구마는 에어프라이어에 몇 분이었지?", "잡곡밥은 물을 얼마나 넣지?" 같은 걸 매번 검색하게 됩니다. {esc(SITE_NAME)}는 그런 정보를 한곳에 모아, 항목 이름만 입력하면 바로 확인할 수 있도록 만든 사이트입니다.</p>
+<p>살림을 처음 시작하면 "고구마는 에어프라이어에 몇 분이었지?", "잡곡밥은 물을 얼마나 넣지?" 같은 걸 매번 검색하게 됩니다. {esc(SITE_NAME)}은 그런 정보를 한곳에 모아, 항목 이름만 입력하면 바로 확인할 수 있도록 만든 사이트입니다.</p>
 <h2>제공하는 메뉴</h2>
 <ul>{menu_list}</ul>
 <p>메뉴는 계속 늘려 가고 있습니다.</p>

@@ -1,4 +1,4 @@
-# 살림사전 (salimdict.com)
+# 살림컨닝 (salimdict.com)
 
 신혼·자취 초보를 위한 살림 꿀팁 정적 사이트.
 
