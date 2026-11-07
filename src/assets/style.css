@@ -180,3 +180,4 @@ main h1{font-family:var(--hand);font-weight:400;font-size:clamp(2.1rem,5.5vw,2.8
 @media (max-width:560px){.food-table td.num{white-space:normal}}
 .logo{display:inline-flex;align-items:center;gap:9px}
 .logo img{display:block;border-radius:7px;flex:none}
+.sources ul{font-size:15px}.sources a{word-break:break-all}
