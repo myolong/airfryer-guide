@@ -11,8 +11,8 @@
  },
  "src/sections/airfryer/guides/chicken-wings.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "90f70153e96e1d8fa44707efaf1f32c6"
+  "modified": "2026-11-07",
+  "hash": "4a787c96a289c9246137e5fd24de9cea"
  },
  "src/sections/airfryer/guides/cleaning.html": {
   "published": "2026-10-30",
@@ -26,8 +26,8 @@
  },
  "src/sections/airfryer/guides/fish-salmon.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "49d77cd9737b9a8a29c923386e783e29"
+  "modified": "2026-11-07",
+  "hash": "174fd12c4082288d0af49392e8108957"
  },
  "src/sections/airfryer/guides/frozen-dumplings.html": {
   "published": "2026-10-30",
@@ -41,18 +41,18 @@
  },
  "src/sections/airfryer/guides/parchment-paper-safety.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "21eb220323147f31be598cae1ac021a8"
+  "modified": "2026-11-07",
+  "hash": "0845b7378a51557cb7f5a2fe4bc97e4d"
  },
  "src/sections/airfryer/guides/pork-belly.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "0a18adb819f8cac42599e77f5c401a98"
+  "modified": "2026-11-07",
+  "hash": "38d722ed7c150d46eb1bf8fa7a44c4a9"
  },
  "src/sections/airfryer/guides/reheat-chicken-pizza.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "0050ff1646b3ab7c5131d2fb28195ff2"
+  "modified": "2026-11-07",
+  "hash": "f684f0c3b555186e8464b974bb8afe34"
  },
  "src/sections/airfryer/guides/sweet-potato.html": {
   "published": "2026-10-30",
@@ -61,8 +61,8 @@
  },
  "src/sections/airfryer/guides/whole-chicken.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "91bbeef97b5536602eddb8d2e0706051"
+  "modified": "2026-11-07",
+  "hash": "61e8416462878b06b26a31ae46be6915"
  },
  "src/sections/airfryer/items.json": {
   "published": "2026-10-30",
@@ -111,13 +111,13 @@
  },
  "src/sections/bills/guides/bill-reading.html": {
   "published": "2026-11-02",
-  "modified": "2026-11-02",
-  "hash": "d565ecacc703a20cb9d15f5d2d4f1b91"
+  "modified": "2026-11-07",
+  "hash": "67b4914209bc120ba0af48e10f9f1755"
  },
  "src/sections/bills/guides/online-bills.html": {
   "published": "2026-11-02",
-  "modified": "2026-11-02",
-  "hash": "7205167ba58246fedb413583aa12a811"
+  "modified": "2026-11-07",
+  "hash": "3f79627a2a46152c40ac61367cf5f7a6"
  },
  "src/sections/bills/guides/water-leak.html": {
   "published": "2026-11-02",
@@ -176,8 +176,8 @@
  },
  "src/sections/broth/guides/storage.html": {
   "published": "2026-11-04",
-  "modified": "2026-11-04",
-  "hash": "e627052f33ec98d6570dbb070ae71dd5"
+  "modified": "2026-11-07",
+  "hash": "9bf7d9b2cbd98268984557ca72a20c6c"
  },
  "src/sections/broth/items.json": {
   "published": "2026-11-04",
@@ -216,18 +216,18 @@
  },
  "src/sections/bulky-waste/guides/confusing-items.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "2ff325a70eb2e8a391503ac9ee19a679"
+  "modified": "2026-11-07",
+  "hash": "05cb3e6b11ce11fad23792407dec7e97"
  },
  "src/sections/bulky-waste/guides/free-appliance-pickup.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "60388aa30ddd3f403a1b30f0ebcc6530"
+  "modified": "2026-11-07",
+  "hash": "b6feb48af65816c9dba8a20d7a92b592"
  },
  "src/sections/bulky-waste/guides/hazardous-items.html": {
   "published": "2026-11-07",
   "modified": "2026-11-07",
-  "hash": "05248cdc4b7b7a54a576a82eeec679a0"
+  "hash": "024ee345c9a72df4de0b9278b5bafb47"
  },
  "src/sections/bulky-waste/guides/how-to-report.html": {
   "published": "2026-10-30",
@@ -281,13 +281,13 @@
  },
  "src/sections/food-waste/guides/basics.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "2238a222849ed3f086627a01e2696f5a"
+  "modified": "2026-11-07",
+  "hash": "772d691c17b393c9c14533745209cb41"
  },
  "src/sections/food-waste/guides/fruit-peels.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "0532d0b35fde3d091ae7545809de8948"
+  "modified": "2026-11-07",
+  "hash": "122b071c9e68a334ce122be02dce43b3"
  },
  "src/sections/food-waste/guides/odor-flies.html": {
   "published": "2026-10-30",
@@ -306,23 +306,23 @@
  },
  "src/sections/houseplants/guides/easy-plants.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "eb53bea0f3e7dc994d80b817b6bc84a0"
+  "modified": "2026-11-07",
+  "hash": "7cc22dd75135f260503909140a4f0b39"
  },
  "src/sections/houseplants/guides/overwatering-signs.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "00cbda7ac35486ba232b9f0ed222da3e"
+  "modified": "2026-11-07",
+  "hash": "b96c1a256c45beab662afcaa0c1270c6"
  },
  "src/sections/houseplants/guides/watering-basics.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "f60656700eea7b1db3e1826555d8fe26"
+  "modified": "2026-11-07",
+  "hash": "9004e9baa065a7339cb220aaaa5b4dcc"
  },
  "src/sections/houseplants/guides/winter-care.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "79fb6642d2a9f6b53d90ec8b96cc0de7"
+  "modified": "2026-11-07",
+  "hash": "69f87168c37d68623eca536b4f142e0a"
  },
  "src/sections/houseplants/items.json": {
   "published": "2026-10-30",
@@ -357,17 +357,17 @@
  "src/sections/meat-cuts/guides/beef-cuts.html": {
   "published": "2026-11-07",
   "modified": "2026-11-07",
-  "hash": "05a8dd916a943563473d309cfd56ad8a"
+  "hash": "a398f0806bf74d6fcf427221a190aab8"
  },
  "src/sections/meat-cuts/guides/chicken-cuts.html": {
   "published": "2026-11-07",
   "modified": "2026-11-07",
-  "hash": "48667fb55e65d3029abce33def460834"
+  "hash": "18e4aa539e3b018369f0e82587016903"
  },
  "src/sections/meat-cuts/guides/pork-cuts.html": {
   "published": "2026-11-07",
   "modified": "2026-11-07",
-  "hash": "300af897f43a2b88dda4b05750d70b33"
+  "hash": "c5768b52b54af4f6d37fe2f2ee1a4a6b"
  },
  "src/sections/meat-cuts/items.json": {
   "published": "2026-11-07",
@@ -381,13 +381,13 @@
  },
  "src/sections/microwave/guides/containers.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "a61dc87756ec440f749c2766624a72ca"
+  "modified": "2026-11-07",
+  "hash": "95096162e6265da4a86f050ddbb6c3a2"
  },
  "src/sections/microwave/guides/reheat-tips.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "01b1883ab979d8f77876c842b261af7c"
+  "modified": "2026-11-07",
+  "hash": "7c412b731a8ce2551590996d39d5a2ab"
  },
  "src/sections/microwave/guides/simple-recipes.html": {
   "published": "2026-11-06",
@@ -456,8 +456,8 @@
  },
  "src/sections/rice-water/guides/rice-storage.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "b94f5ec289f00966e8de5f048d8af3d8"
+  "modified": "2026-11-07",
+  "hash": "7be48eaea7c093d4f6944a20e2c8c260"
  },
  "src/sections/rice-water/items.json": {
   "published": "2026-10-30",
@@ -481,8 +481,8 @@
  },
  "src/sections/sauce/guides/storage.html": {
   "published": "2026-11-05",
-  "modified": "2026-11-05",
-  "hash": "e27fc0aa10811c2c0cb9892c31174ed8"
+  "modified": "2026-11-07",
+  "hash": "4fa67f428b9f76352fc2387cfb1b34fa"
  },
  "src/sections/sauce/items.json": {
   "published": "2026-11-05",
@@ -496,38 +496,38 @@
  },
  "src/sections/seasonal/guides/autumn-produce.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "b512a53eb3ff16fe6970764de6bc9c93"
+  "modified": "2026-11-07",
+  "hash": "4acf9deabd6ebbbc478fe906e310d015"
  },
  "src/sections/seasonal/guides/fruit-cheong.html": {
   "published": "2026-11-02",
-  "modified": "2026-11-02",
-  "hash": "0ba9648c1e7561a71f7e6aad4c899a2b"
+  "modified": "2026-11-07",
+  "hash": "fb0ff879b11e3069ee94164307d76df5"
  },
  "src/sections/seasonal/guides/kimjang.html": {
   "published": "2026-11-02",
-  "modified": "2026-11-02",
-  "hash": "4678e9d814c8e4a7de4e11415a82ea8f"
+  "modified": "2026-11-07",
+  "hash": "90701f1f427c11a211702519327c7b2b"
  },
  "src/sections/seasonal/guides/seafood.html": {
   "published": "2026-11-02",
-  "modified": "2026-11-02",
-  "hash": "3cba7da7765d123c92eef35f7c090403"
+  "modified": "2026-11-07",
+  "hash": "525beb813309a88dfcd2f415488901a6"
  },
  "src/sections/seasonal/guides/spring-produce.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "9ea890bf728ec8cd59a4023f0e1922f2"
+  "modified": "2026-11-07",
+  "hash": "14ef4c0dcae2eba511e137476e399e09"
  },
  "src/sections/seasonal/guides/summer-produce.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "55080fd99f6a28cc7874e33725e360b3"
+  "modified": "2026-11-07",
+  "hash": "e650f1059127a0de39d0e10b842dc4bc"
  },
  "src/sections/seasonal/guides/winter-produce.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "9f86d7b01da81eac51fe5c29d43f3a83"
+  "modified": "2026-11-07",
+  "hash": "96a51b21eb8177d616f3d90285a071eb"
  },
  "src/sections/seasonal/items.json": {
   "published": "2026-10-30",
@@ -607,17 +607,17 @@
  "src/sections/winter-home/guides/condensation.html": {
   "published": "2026-11-07",
   "modified": "2026-11-07",
-  "hash": "9eef9417d9111ad70bc231afc6b8bc0e"
+  "hash": "2a0b920046507bb37ff1f0c6b74acfbb"
  },
  "src/sections/winter-home/guides/draft.html": {
   "published": "2026-11-07",
   "modified": "2026-11-07",
-  "hash": "64bf536d173f4ad7ce14b98408c56e3a"
+  "hash": "8e176f81a4efeb91bddf3ab6cd477891"
  },
  "src/sections/winter-home/guides/freeze.html": {
   "published": "2026-11-07",
   "modified": "2026-11-07",
-  "hash": "4d8c0f0e2a01bda4f7a46ead4f80fec6"
+  "hash": "ef9332c2f01dabcaf612f4d96524ff0f"
  },
  "src/sections/winter-home/items.json": {
   "published": "2026-11-07",
