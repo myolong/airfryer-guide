@@ -279,6 +279,26 @@
   "modified": "2026-11-02",
   "hash": "d8f65879ae81d31e8f2517ac5ed962f4"
  },
+ "src/sections/food-storage/guides/meat-fish.html": {
+  "published": "2026-11-09",
+  "modified": "2026-11-09",
+  "hash": "b2a6b6be5797cfb5205851408ee02c51"
+ },
+ "src/sections/food-storage/guides/vegetables.html": {
+  "published": "2026-11-09",
+  "modified": "2026-11-09",
+  "hash": "6cd52376111b1235181f9f89733dabc9"
+ },
+ "src/sections/food-storage/items.json": {
+  "published": "2026-11-09",
+  "modified": "2026-11-09",
+  "hash": "ff6bb5a155ba19c0ab6fe8188527bc3f"
+ },
+ "src/sections/food-storage/section.json": {
+  "published": "2026-11-09",
+  "modified": "2026-11-09",
+  "hash": "77968a64df29a043ead70e966c938be8"
+ },
  "src/sections/food-waste/guides/basics.html": {
   "published": "2026-10-30",
   "modified": "2026-11-07",
@@ -444,6 +464,11 @@
   "modified": "2026-10-30",
   "hash": "cb3315d03ced8a10b755621c48b83500"
  },
+ "src/sections/rice-water/guides/leftover-rice.html": {
+  "published": "2026-11-09",
+  "modified": "2026-11-09",
+  "hash": "30ab3741001768eca0f08ebb26540048"
+ },
  "src/sections/rice-water/guides/mixed-grain-rice.html": {
   "published": "2026-10-30",
   "modified": "2026-10-30",
@@ -454,15 +479,25 @@
   "modified": "2026-10-30",
   "hash": "aeb81db0d016f8bf44c3cae5034629e8"
  },
+ "src/sections/rice-water/guides/rice-cooker-modes.html": {
+  "published": "2026-11-09",
+  "modified": "2026-11-09",
+  "hash": "186b38b84737d40410f275972bcac286"
+ },
  "src/sections/rice-water/guides/rice-storage.html": {
   "published": "2026-10-30",
   "modified": "2026-11-07",
   "hash": "7be48eaea7c093d4f6944a20e2c8c260"
  },
+ "src/sections/rice-water/guides/sotbap.html": {
+  "published": "2026-11-09",
+  "modified": "2026-11-09",
+  "hash": "ad63a1da781b52ff3c49c0da63e54a8d"
+ },
  "src/sections/rice-water/items.json": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "714e128b23e4859dd97a2405b11cdeac"
+  "modified": "2026-11-09",
+  "hash": "080df8065c545e21f1f002b33a7389a2"
  },
  "src/sections/rice-water/section.json": {
   "published": "2026-10-30",

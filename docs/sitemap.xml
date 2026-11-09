@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://salimdict.com/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://salimdict.com/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://salimdict.com/airfryer/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/microwave/</loc><lastmod>2026-11-07</lastmod></url>
-  <url><loc>https://salimdict.com/rice-water/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://salimdict.com/rice-water/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://salimdict.com/boil-times/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://salimdict.com/seasonal/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/measure/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://salimdict.com/broth/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/sauce/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/meat-cuts/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://salimdict.com/food-storage/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://salimdict.com/stains/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://salimdict.com/appliance-cleaning/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://salimdict.com/houseplants/</loc><lastmod>2026-11-07</lastmod></url>
@@ -43,6 +44,9 @@
   <url><loc>https://salimdict.com/rice-water/mixed-grain-rice/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://salimdict.com/rice-water/rice-storage/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/rice-water/fix-rice/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://salimdict.com/rice-water/rice-cooker-modes/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://salimdict.com/rice-water/sotbap/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://salimdict.com/rice-water/leftover-rice/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://salimdict.com/boil-times/boiled-eggs/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://salimdict.com/boil-times/somen-noodles/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://salimdict.com/boil-times/pasta/</loc><lastmod>2026-10-30</lastmod></url>
@@ -65,6 +69,8 @@
   <url><loc>https://salimdict.com/meat-cuts/beef-cuts/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/meat-cuts/pork-cuts/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/meat-cuts/chicken-cuts/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://salimdict.com/food-storage/vegetables/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://salimdict.com/food-storage/meat-fish/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://salimdict.com/stains/stain-basics/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://salimdict.com/stains/oxygen-bleach/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://salimdict.com/stains/kimchi-stain/</loc><lastmod>2026-10-30</lastmod></url>
@@ -107,7 +113,7 @@
   <url><loc>https://salimdict.com/winter-home/freeze/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/winter-home/condensation/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/winter-home/draft/</loc><lastmod>2026-11-07</lastmod></url>
-  <url><loc>https://salimdict.com/about/</loc><lastmod>2026-11-07</lastmod></url>
-  <url><loc>https://salimdict.com/privacy/</loc><lastmod>2026-11-07</lastmod></url>
-  <url><loc>https://salimdict.com/contact/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://salimdict.com/about/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://salimdict.com/privacy/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://salimdict.com/contact/</loc><lastmod>2026-11-09</lastmod></url>
 </urlset>
