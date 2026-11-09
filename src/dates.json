@@ -1,8 +1,8 @@
 {
  "src/sections/airfryer/guides/baked-eggs.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "68bc4e96067859cdd9792ee58387310e"
+  "modified": "2026-11-09",
+  "hash": "79414e5d8416e92b6db41349a29f8261"
  },
  "src/sections/airfryer/guides/basics-preheat.html": {
   "published": "2026-10-30",
@@ -11,8 +11,8 @@
  },
  "src/sections/airfryer/guides/chicken-wings.html": {
   "published": "2026-10-30",
-  "modified": "2026-11-07",
-  "hash": "4a787c96a289c9246137e5fd24de9cea"
+  "modified": "2026-11-09",
+  "hash": "41032eb28fabdc06cfb296ce7a8f692a"
  },
  "src/sections/airfryer/guides/cleaning.html": {
   "published": "2026-10-30",
@@ -21,18 +21,18 @@
  },
  "src/sections/airfryer/guides/first-use.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "e125f465c3a39ecdd1764cc153932d72"
+  "modified": "2026-11-09",
+  "hash": "d3e6190ea5803e0facf74712b30afd0a"
  },
  "src/sections/airfryer/guides/fish-salmon.html": {
   "published": "2026-10-30",
-  "modified": "2026-11-07",
-  "hash": "174fd12c4082288d0af49392e8108957"
+  "modified": "2026-11-09",
+  "hash": "ce457b2eab4ec8d50a915e48066fecb8"
  },
  "src/sections/airfryer/guides/frozen-dumplings.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "c10be3194701e3269e97de96923c4c88"
+  "modified": "2026-11-09",
+  "hash": "dad53c483405b51eb813cf88114f629f"
  },
  "src/sections/airfryer/guides/frozen-french-fries.html": {
   "published": "2026-10-30",
@@ -71,8 +71,8 @@
  },
  "src/sections/airfryer/section.json": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "2bac519b5a64763d639291f0e2fb3853"
+  "modified": "2026-11-09",
+  "hash": "c66b258aa280f53570da583bc9f69edc"
  },
  "src/sections/appliance-cleaning/guides/aircon-filter.html": {
   "published": "2026-10-30",
@@ -146,8 +146,8 @@
  },
  "src/sections/boil-times/guides/pasta.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "ab48dc5a8a30c5c416c71d72e834aecb"
+  "modified": "2026-11-09",
+  "hash": "65f88353bb6d44f23aa2a4e3064b52fe"
  },
  "src/sections/boil-times/guides/somen-noodles.html": {
   "published": "2026-10-30",
@@ -161,8 +161,8 @@
  },
  "src/sections/boil-times/section.json": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "ef919f210923466010a8a42f6a42b2c5"
+  "modified": "2026-11-09",
+  "hash": "329ec97b5ff9ba6ef90ea1c351f76ba0"
  },
  "src/sections/broth/guides/anchovy-kelp.html": {
   "published": "2026-11-04",
@@ -371,8 +371,8 @@
  },
  "src/sections/measure/section.json": {
   "published": "2026-11-03",
-  "modified": "2026-11-03",
-  "hash": "bfe9471c1a0653e6290672cd58ed2f81"
+  "modified": "2026-11-09",
+  "hash": "322595b864b676af0499b658f8f4ba74"
  },
  "src/sections/meat-cuts/guides/beef-cuts.html": {
   "published": "2026-11-07",
@@ -426,8 +426,8 @@
  },
  "src/sections/microwave/section.json": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "324fbc4bfd09290732fc2a696ea96b0f"
+  "modified": "2026-11-09",
+  "hash": "d0602352e1d78f7c88472514d6d2201f"
  },
  "src/sections/mold/guides/bathroom-mold.html": {
   "published": "2026-11-06",
@@ -456,8 +456,8 @@
  },
  "src/sections/rice-water/guides/brown-rice.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "527b02fcb86b2d4ed395308f84b88ce1"
+  "modified": "2026-11-09",
+  "hash": "295f40f7e926eace62acddc3268065b9"
  },
  "src/sections/rice-water/guides/fix-rice.html": {
   "published": "2026-10-30",
@@ -471,8 +471,8 @@
  },
  "src/sections/rice-water/guides/mixed-grain-rice.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "7ec735f91564b2143d503b62ce6e1df0"
+  "modified": "2026-11-09",
+  "hash": "f76a8b3cf19dd8b1dcf764aa954e7afa"
  },
  "src/sections/rice-water/guides/pot-rice.html": {
   "published": "2026-10-30",
@@ -489,6 +489,11 @@
   "modified": "2026-11-07",
   "hash": "7be48eaea7c093d4f6944a20e2c8c260"
  },
+ "src/sections/rice-water/guides/soak-times.html": {
+  "published": "2026-11-09",
+  "modified": "2026-11-09",
+  "hash": "de0c25650cf7f4f2372eeae05b86749c"
+ },
  "src/sections/rice-water/guides/sotbap.html": {
   "published": "2026-11-09",
   "modified": "2026-11-09",
@@ -501,8 +506,8 @@
  },
  "src/sections/rice-water/section.json": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "c508b07bf7076d6cdf3e46de7cdadad4"
+  "modified": "2026-11-09",
+  "hash": "2e577cfea6cd18e81a0c02038ab8c7f2"
  },
  "src/sections/sauce/guides/basics.html": {
   "published": "2026-11-05",
