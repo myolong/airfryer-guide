@@ -454,6 +454,36 @@
   "modified": "2026-11-06",
   "hash": "7f47cf802e6be5350c8c980fe594518f"
  },
+ "src/sections/move-in/guides/after-moving.html": {
+  "published": "2026-11-10",
+  "modified": "2026-11-10",
+  "hash": "520a8b5b26d0c78730b9338c35f07b81"
+ },
+ "src/sections/move-in/guides/before-moving.html": {
+  "published": "2026-11-10",
+  "modified": "2026-11-10",
+  "hash": "d9307e5bc93b4579d8406656e1c00d6b"
+ },
+ "src/sections/move-in/guides/handover.html": {
+  "published": "2026-11-10",
+  "modified": "2026-11-10",
+  "hash": "60ce51fa0c97ec4f40e72f815395a971"
+ },
+ "src/sections/move-in/guides/moving-day.html": {
+  "published": "2026-11-10",
+  "modified": "2026-11-10",
+  "hash": "0d10569c6b13ae7d97329d724719e772"
+ },
+ "src/sections/move-in/items.json": {
+  "published": "2026-11-10",
+  "modified": "2026-11-10",
+  "hash": "b963fcb79a4469ed39881577cd1526c8"
+ },
+ "src/sections/move-in/section.json": {
+  "published": "2026-11-10",
+  "modified": "2026-11-10",
+  "hash": "fa4ef9940adb4cd577008c80a1e0da69"
+ },
  "src/sections/rice-water/guides/brown-rice.html": {
   "published": "2026-10-30",
   "modified": "2026-11-09",
@@ -658,6 +688,11 @@
   "published": "2026-11-07",
   "modified": "2026-11-07",
   "hash": "ef9332c2f01dabcaf612f4d96524ff0f"
+ },
+ "src/sections/winter-home/guides/heating-check.html": {
+  "published": "2026-11-10",
+  "modified": "2026-11-10",
+  "hash": "f1fa93bf168483bdff6ff5ad4072b7ab"
  },
  "src/sections/winter-home/items.json": {
   "published": "2026-11-07",
