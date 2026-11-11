@@ -279,6 +279,21 @@
   "modified": "2026-11-02",
   "hash": "d8f65879ae81d31e8f2517ac5ed962f4"
  },
+ "src/sections/expiry-date/guides/label-basics.html": {
+  "published": "2026-11-11",
+  "modified": "2026-11-11",
+  "hash": "6450fe678ac9c37448b2c3afff99f815"
+ },
+ "src/sections/expiry-date/items.json": {
+  "published": "2026-11-11",
+  "modified": "2026-11-11",
+  "hash": "2191f31fbc9e2f19d28287645a3197b0"
+ },
+ "src/sections/expiry-date/section.json": {
+  "published": "2026-11-11",
+  "modified": "2026-11-11",
+  "hash": "e81201659aa60c39b41d1a28431135ce"
+ },
  "src/sections/food-storage/guides/meat-fish.html": {
   "published": "2026-11-09",
   "modified": "2026-11-09",
@@ -353,6 +368,21 @@
   "published": "2026-10-30",
   "modified": "2026-10-30",
   "hash": "3631d49e58e44de0b58f084d6894fb79"
+ },
+ "src/sections/laundry-symbols/guides/symbol-guide.html": {
+  "published": "2026-11-11",
+  "modified": "2026-11-11",
+  "hash": "8f848ed072669f35409a618a38d250fe"
+ },
+ "src/sections/laundry-symbols/items.json": {
+  "published": "2026-11-11",
+  "modified": "2026-11-11",
+  "hash": "0edd81da2d2b7d2c61825a907fac0041"
+ },
+ "src/sections/laundry-symbols/section.json": {
+  "published": "2026-11-11",
+  "modified": "2026-11-11",
+  "hash": "1e64f2d58b968946b94127bdfb00ea8d"
  },
  "src/sections/measure/guides/basics.html": {
   "published": "2026-11-03",
