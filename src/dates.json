@@ -384,6 +384,26 @@
   "modified": "2026-11-11",
   "hash": "1e64f2d58b968946b94127bdfb00ea8d"
  },
+ "src/sections/leftovers/guides/basics.html": {
+  "published": "2026-11-12",
+  "modified": "2026-11-12",
+  "hash": "50bfefab3aaffbe9446ecf00d61128ea"
+ },
+ "src/sections/leftovers/guides/delivery.html": {
+  "published": "2026-11-12",
+  "modified": "2026-11-12",
+  "hash": "574ea46c87fe7e7d19cfb1dae42643ee"
+ },
+ "src/sections/leftovers/items.json": {
+  "published": "2026-11-12",
+  "modified": "2026-11-12",
+  "hash": "eb82465a7b76063476ab416a4e0609e2"
+ },
+ "src/sections/leftovers/section.json": {
+  "published": "2026-11-12",
+  "modified": "2026-11-12",
+  "hash": "64fd673c1cfa101f528825ea3fdbf922"
+ },
  "src/sections/measure/guides/basics.html": {
   "published": "2026-11-03",
   "modified": "2026-11-03",
@@ -513,6 +533,26 @@
   "published": "2026-11-10",
   "modified": "2026-11-10",
   "hash": "fa4ef9940adb4cd577008c80a1e0da69"
+ },
+ "src/sections/replace-cycle/guides/bathroom-kitchen.html": {
+  "published": "2026-11-12",
+  "modified": "2026-11-12",
+  "hash": "c15e6de52f15ba4bf16bd3bd2eab6cb3"
+ },
+ "src/sections/replace-cycle/guides/bedroom-appliance.html": {
+  "published": "2026-11-12",
+  "modified": "2026-11-12",
+  "hash": "857c8149a9e91243b8fdf8aa554cae66"
+ },
+ "src/sections/replace-cycle/items.json": {
+  "published": "2026-11-12",
+  "modified": "2026-11-12",
+  "hash": "1e4f9ce6a4ebcc71a04b6bd6820140fa"
+ },
+ "src/sections/replace-cycle/section.json": {
+  "published": "2026-11-12",
+  "modified": "2026-11-12",
+  "hash": "d9e12eb92ce9a42947c796358d5b760d"
  },
  "src/sections/rice-water/guides/brown-rice.html": {
   "published": "2026-10-30",

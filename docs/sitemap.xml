@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://salimdict.com/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://salimdict.com/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://salimdict.com/airfryer/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://salimdict.com/microwave/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://salimdict.com/rice-water/</loc><lastmod>2026-11-09</lastmod></url>
@@ -12,6 +12,7 @@
   <url><loc>https://salimdict.com/meat-cuts/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/expiry-date/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://salimdict.com/food-storage/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://salimdict.com/leftovers/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://salimdict.com/stains/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://salimdict.com/appliance-cleaning/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://salimdict.com/houseplants/</loc><lastmod>2026-11-07</lastmod></url>
@@ -25,6 +26,7 @@
   <url><loc>https://salimdict.com/mold/</loc><lastmod>2026-11-06</lastmod></url>
   <url><loc>https://salimdict.com/winter-home/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://salimdict.com/move-in/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://salimdict.com/replace-cycle/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://salimdict.com/airfryer/basics-preheat/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://salimdict.com/airfryer/first-use/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://salimdict.com/airfryer/frozen-french-fries/</loc><lastmod>2026-10-30</lastmod></url>
@@ -76,6 +78,8 @@
   <url><loc>https://salimdict.com/expiry-date/label-basics/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://salimdict.com/food-storage/vegetables/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://salimdict.com/food-storage/meat-fish/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://salimdict.com/leftovers/basics/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://salimdict.com/leftovers/delivery/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://salimdict.com/stains/stain-basics/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://salimdict.com/stains/oxygen-bleach/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://salimdict.com/stains/kimchi-stain/</loc><lastmod>2026-10-30</lastmod></url>
@@ -124,7 +128,9 @@
   <url><loc>https://salimdict.com/move-in/moving-day/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://salimdict.com/move-in/after-moving/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://salimdict.com/move-in/handover/</loc><lastmod>2026-11-10</lastmod></url>
-  <url><loc>https://salimdict.com/about/</loc><lastmod>2026-11-11</lastmod></url>
-  <url><loc>https://salimdict.com/privacy/</loc><lastmod>2026-11-11</lastmod></url>
-  <url><loc>https://salimdict.com/contact/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://salimdict.com/replace-cycle/bathroom-kitchen/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://salimdict.com/replace-cycle/bedroom-appliance/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://salimdict.com/about/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://salimdict.com/privacy/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://salimdict.com/contact/</loc><lastmod>2026-11-12</lastmod></url>
 </urlset>
