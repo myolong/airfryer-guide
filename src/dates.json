@@ -79,6 +79,16 @@
   "modified": "2026-10-30",
   "hash": "befa8819f333c3ff291cf40e8c0d46dd"
  },
+ "src/sections/appliance-cleaning/guides/dishwasher-smell.html": {
+  "published": "2026-11-13",
+  "modified": "2026-11-13",
+  "hash": "9063c2417ddd6c786d4ff27093623e8f"
+ },
+ "src/sections/appliance-cleaning/guides/dryer-not-drying.html": {
+  "published": "2026-11-13",
+  "modified": "2026-11-13",
+  "hash": "4c0b0178de360cca0476845cc7e9562c"
+ },
  "src/sections/appliance-cleaning/guides/fridge-cleaning.html": {
   "published": "2026-10-30",
   "modified": "2026-10-30",
@@ -94,6 +104,11 @@
   "modified": "2026-10-30",
   "hash": "7c57e02dfb9ce1db238c0224f2f2251e"
  },
+ "src/sections/appliance-cleaning/guides/robot-vacuum.html": {
+  "published": "2026-11-13",
+  "modified": "2026-11-13",
+  "hash": "dd3a3487dc3c34082d9bb72bb22be5a7"
+ },
  "src/sections/appliance-cleaning/guides/washing-machine-tub.html": {
   "published": "2026-10-30",
   "modified": "2026-10-30",
@@ -101,8 +116,8 @@
  },
  "src/sections/appliance-cleaning/items.json": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "6159f9bbfc26324ebcd8d873f76b3c0b"
+  "modified": "2026-11-13",
+  "hash": "071db1f4c7f9ee5c26cc6f8aa1abb995"
  },
  "src/sections/appliance-cleaning/section.json": {
   "published": "2026-10-30",
@@ -338,6 +353,26 @@
   "published": "2026-10-30",
   "modified": "2026-10-30",
   "hash": "ae6e5c7d8ed98d65641a36cabf7366a4"
+ },
+ "src/sections/holiday-table/guides/prep-schedule.html": {
+  "published": "2026-11-13",
+  "modified": "2026-11-13",
+  "hash": "6033e9dd2bb3e2b151c2b940b33d9b20"
+ },
+ "src/sections/holiday-table/guides/table-basics.html": {
+  "published": "2026-11-13",
+  "modified": "2026-11-13",
+  "hash": "1707376b5e061344ffb4a554c26a9909"
+ },
+ "src/sections/holiday-table/items.json": {
+  "published": "2026-11-13",
+  "modified": "2026-11-13",
+  "hash": "a13e6a137bcf5b0fcfa048186b30cbdf"
+ },
+ "src/sections/holiday-table/section.json": {
+  "published": "2026-11-13",
+  "modified": "2026-11-13",
+  "hash": "96f3bc35e745b1cbab24c7fac09b92f9"
  },
  "src/sections/houseplants/guides/easy-plants.html": {
   "published": "2026-10-30",

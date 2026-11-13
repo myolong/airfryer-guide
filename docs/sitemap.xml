@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://salimdict.com/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://salimdict.com/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://salimdict.com/airfryer/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://salimdict.com/microwave/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://salimdict.com/rice-water/</loc><lastmod>2026-11-09</lastmod></url>
@@ -12,9 +12,10 @@
   <url><loc>https://salimdict.com/meat-cuts/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/expiry-date/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://salimdict.com/food-storage/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://salimdict.com/holiday-table/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://salimdict.com/leftovers/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://salimdict.com/stains/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://salimdict.com/appliance-cleaning/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://salimdict.com/appliance-cleaning/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://salimdict.com/houseplants/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/bulky-waste/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/food-waste/</loc><lastmod>2026-11-07</lastmod></url>
@@ -78,6 +79,8 @@
   <url><loc>https://salimdict.com/expiry-date/label-basics/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://salimdict.com/food-storage/vegetables/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://salimdict.com/food-storage/meat-fish/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://salimdict.com/holiday-table/table-basics/</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://salimdict.com/holiday-table/prep-schedule/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://salimdict.com/leftovers/basics/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://salimdict.com/leftovers/delivery/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://salimdict.com/stains/stain-basics/</loc><lastmod>2026-10-30</lastmod></url>
@@ -92,6 +95,9 @@
   <url><loc>https://salimdict.com/appliance-cleaning/fridge-cleaning/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://salimdict.com/appliance-cleaning/range-hood/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://salimdict.com/appliance-cleaning/humidifier/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://salimdict.com/appliance-cleaning/dishwasher-smell/</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://salimdict.com/appliance-cleaning/dryer-not-drying/</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://salimdict.com/appliance-cleaning/robot-vacuum/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://salimdict.com/houseplants/watering-basics/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/houseplants/easy-plants/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/houseplants/overwatering-signs/</loc><lastmod>2026-11-07</lastmod></url>
@@ -130,7 +136,7 @@
   <url><loc>https://salimdict.com/move-in/handover/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://salimdict.com/replace-cycle/bathroom-kitchen/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://salimdict.com/replace-cycle/bedroom-appliance/</loc><lastmod>2026-11-12</lastmod></url>
-  <url><loc>https://salimdict.com/about/</loc><lastmod>2026-11-12</lastmod></url>
-  <url><loc>https://salimdict.com/privacy/</loc><lastmod>2026-11-12</lastmod></url>
-  <url><loc>https://salimdict.com/contact/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://salimdict.com/about/</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://salimdict.com/privacy/</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://salimdict.com/contact/</loc><lastmod>2026-11-13</lastmod></url>
 </urlset>
