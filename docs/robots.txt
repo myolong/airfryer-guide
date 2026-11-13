@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://salimdict.com/sitemap.xml
+
+#DaumWebMasterTool:6892b89c5d12781fac611bab3bcf991a17a4f750f0c6a2658fc4033e5014fa44:LJPampnqaffzNtkuALZiYQ==
