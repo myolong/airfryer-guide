@@ -71,8 +71,8 @@
  },
  "src/sections/airfryer/section.json": {
   "published": "2026-10-30",
-  "modified": "2026-11-09",
-  "hash": "c66b258aa280f53570da583bc9f69edc"
+  "modified": "2026-11-16",
+  "hash": "d8198551f4cb65138823161daa545613"
  },
  "src/sections/appliance-cleaning/guides/aircon-filter.html": {
   "published": "2026-10-30",
@@ -121,8 +121,8 @@
  },
  "src/sections/appliance-cleaning/section.json": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "29dd8cd0827b0f75a1a70d00f998d5c2"
+  "modified": "2026-11-16",
+  "hash": "1726fdc13ef15bf89417820d3a5721a1"
  },
  "src/sections/bills/guides/bill-reading.html": {
   "published": "2026-11-02",
@@ -146,8 +146,8 @@
  },
  "src/sections/bills/section.json": {
   "published": "2026-11-02",
-  "modified": "2026-11-02",
-  "hash": "6362819cd3dc8a3761ba22d97c71302f"
+  "modified": "2026-11-16",
+  "hash": "6f08620869ae6c684787932c142e57dc"
  },
  "src/sections/boil-times/guides/boiled-eggs.html": {
   "published": "2026-10-30",
@@ -176,8 +176,8 @@
  },
  "src/sections/boil-times/section.json": {
   "published": "2026-10-30",
-  "modified": "2026-11-09",
-  "hash": "329ec97b5ff9ba6ef90ea1c351f76ba0"
+  "modified": "2026-11-16",
+  "hash": "e94df00d2a5b5a7e7cb38b9665f80861"
  },
  "src/sections/broth/guides/anchovy-kelp.html": {
   "published": "2026-11-04",
@@ -201,8 +201,8 @@
  },
  "src/sections/broth/section.json": {
   "published": "2026-11-04",
-  "modified": "2026-11-04",
-  "hash": "2773ebbf8868f00e34fa08980ade47f9"
+  "modified": "2026-11-16",
+  "hash": "1c9790c311d198833081f94cbbc32d4f"
  },
  "src/sections/bugs/guides/cockroach.html": {
   "published": "2026-11-03",
@@ -226,8 +226,8 @@
  },
  "src/sections/bugs/section.json": {
   "published": "2026-11-03",
-  "modified": "2026-11-03",
-  "hash": "bd544f3327c11fefe228c03f2f00a2bb"
+  "modified": "2026-11-16",
+  "hash": "46c29cf036b94b2a3a4fd46bfd89afa4"
  },
  "src/sections/bulky-waste/guides/clothes-shoes.html": {
   "published": "2026-11-16",
@@ -266,8 +266,8 @@
  },
  "src/sections/bulky-waste/section.json": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "2258c1e9c8f0193734758a8812438e63"
+  "modified": "2026-11-16",
+  "hash": "b20517cbb9ae7371b7a77dc1033cd5c9"
  },
  "src/sections/clothes-care/guides/knit-wool.html": {
   "published": "2026-11-02",
@@ -296,8 +296,8 @@
  },
  "src/sections/clothes-care/section.json": {
   "published": "2026-11-02",
-  "modified": "2026-11-02",
-  "hash": "d8f65879ae81d31e8f2517ac5ed962f4"
+  "modified": "2026-11-16",
+  "hash": "db9969cf9d6da5b4f8fd7731bd2b224a"
  },
  "src/sections/expiry-date/guides/label-basics.html": {
   "published": "2026-11-11",
@@ -311,8 +311,8 @@
  },
  "src/sections/expiry-date/section.json": {
   "published": "2026-11-11",
-  "modified": "2026-11-11",
-  "hash": "e81201659aa60c39b41d1a28431135ce"
+  "modified": "2026-11-16",
+  "hash": "7a47acc2098315c3e2b9ee0fa8defd5b"
  },
  "src/sections/food-storage/guides/meat-fish.html": {
   "published": "2026-11-09",
@@ -331,8 +331,8 @@
  },
  "src/sections/food-storage/section.json": {
   "published": "2026-11-09",
-  "modified": "2026-11-09",
-  "hash": "77968a64df29a043ead70e966c938be8"
+  "modified": "2026-11-16",
+  "hash": "c6ae92f7bfd732791060c7338a4b3467"
  },
  "src/sections/food-waste/guides/basics.html": {
   "published": "2026-10-30",
@@ -356,8 +356,8 @@
  },
  "src/sections/food-waste/section.json": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "ae6e5c7d8ed98d65641a36cabf7366a4"
+  "modified": "2026-11-16",
+  "hash": "11e58ffbf0cc9847372bbebc60f0133f"
  },
  "src/sections/holiday-table/guides/prep-schedule.html": {
   "published": "2026-11-13",
@@ -376,8 +376,8 @@
  },
  "src/sections/holiday-table/section.json": {
   "published": "2026-11-13",
-  "modified": "2026-11-13",
-  "hash": "96f3bc35e745b1cbab24c7fac09b92f9"
+  "modified": "2026-11-16",
+  "hash": "b95443237808082af585f8079061651f"
  },
  "src/sections/houseplants/guides/easy-plants.html": {
   "published": "2026-10-30",
@@ -406,8 +406,8 @@
  },
  "src/sections/houseplants/section.json": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "3631d49e58e44de0b58f084d6894fb79"
+  "modified": "2026-11-16",
+  "hash": "bc050de67d0ca057d45a7026b13c8850"
  },
  "src/sections/laundry-symbols/guides/symbol-guide.html": {
   "published": "2026-11-11",
@@ -421,8 +421,8 @@
  },
  "src/sections/laundry-symbols/section.json": {
   "published": "2026-11-11",
-  "modified": "2026-11-11",
-  "hash": "1e64f2d58b968946b94127bdfb00ea8d"
+  "modified": "2026-11-16",
+  "hash": "95a4fe4ed7ec36ae669c6d75b4d3827c"
  },
  "src/sections/leftovers/guides/basics.html": {
   "published": "2026-11-12",
@@ -441,8 +441,8 @@
  },
  "src/sections/leftovers/section.json": {
   "published": "2026-11-12",
-  "modified": "2026-11-12",
-  "hash": "64fd673c1cfa101f528825ea3fdbf922"
+  "modified": "2026-11-16",
+  "hash": "b8aff602530605c1501c8ee73123919e"
  },
  "src/sections/measure/guides/basics.html": {
   "published": "2026-11-03",
@@ -461,8 +461,8 @@
  },
  "src/sections/measure/section.json": {
   "published": "2026-11-03",
-  "modified": "2026-11-09",
-  "hash": "322595b864b676af0499b658f8f4ba74"
+  "modified": "2026-11-16",
+  "hash": "0d7f08defe13022922486100a7fead1a"
  },
  "src/sections/meat-cuts/guides/beef-cuts.html": {
   "published": "2026-11-07",
@@ -486,8 +486,8 @@
  },
  "src/sections/meat-cuts/section.json": {
   "published": "2026-11-07",
-  "modified": "2026-11-07",
-  "hash": "4e83260f6efaeb62fe1f95c5dbb65c19"
+  "modified": "2026-11-16",
+  "hash": "38987585b034a522fa8fea0f4c50eee7"
  },
  "src/sections/microwave/guides/containers.html": {
   "published": "2026-10-30",
@@ -516,8 +516,8 @@
  },
  "src/sections/microwave/section.json": {
   "published": "2026-10-30",
-  "modified": "2026-11-09",
-  "hash": "d0602352e1d78f7c88472514d6d2201f"
+  "modified": "2026-11-16",
+  "hash": "9fef559e7827493d31a9b78b87efa331"
  },
  "src/sections/mold/guides/bathroom-mold.html": {
   "published": "2026-11-06",
@@ -541,8 +541,8 @@
  },
  "src/sections/mold/section.json": {
   "published": "2026-11-06",
-  "modified": "2026-11-06",
-  "hash": "7f47cf802e6be5350c8c980fe594518f"
+  "modified": "2026-11-16",
+  "hash": "c1a5b11c7a16dae5d3efa76ee8f8efbb"
  },
  "src/sections/move-in/guides/after-moving.html": {
   "published": "2026-11-10",
@@ -571,8 +571,8 @@
  },
  "src/sections/move-in/section.json": {
   "published": "2026-11-10",
-  "modified": "2026-11-10",
-  "hash": "fa4ef9940adb4cd577008c80a1e0da69"
+  "modified": "2026-11-16",
+  "hash": "4611d096c3d0543e690b30a31a80deda"
  },
  "src/sections/recycling/guides/basics.html": {
   "published": "2026-11-16",
@@ -587,7 +587,7 @@
  "src/sections/recycling/section.json": {
   "published": "2026-11-16",
   "modified": "2026-11-16",
-  "hash": "c9d930711024563fcd97a40d8cd8cc5a"
+  "hash": "faacabef68049dedb08af6c9c80226d1"
  },
  "src/sections/replace-cycle/guides/bathroom-kitchen.html": {
   "published": "2026-11-12",
@@ -606,8 +606,8 @@
  },
  "src/sections/replace-cycle/section.json": {
   "published": "2026-11-12",
-  "modified": "2026-11-12",
-  "hash": "d9e12eb92ce9a42947c796358d5b760d"
+  "modified": "2026-11-16",
+  "hash": "9d0d3658bd29127c0a8f2afd00c88eb0"
  },
  "src/sections/rice-water/guides/brown-rice.html": {
   "published": "2026-10-30",
@@ -661,8 +661,8 @@
  },
  "src/sections/rice-water/section.json": {
   "published": "2026-10-30",
-  "modified": "2026-11-09",
-  "hash": "2e577cfea6cd18e81a0c02038ab8c7f2"
+  "modified": "2026-11-16",
+  "hash": "79fd015ca4b367828ab6f68103b4eae5"
  },
  "src/sections/sauce/guides/basics.html": {
   "published": "2026-11-05",
@@ -686,8 +686,8 @@
  },
  "src/sections/sauce/section.json": {
   "published": "2026-11-05",
-  "modified": "2026-11-05",
-  "hash": "4dde4f244f2862535dfa59c04c25ece7"
+  "modified": "2026-11-16",
+  "hash": "5dd2f2c232803dc1e5c56b1d262a6a6f"
  },
  "src/sections/seasonal/guides/autumn-produce.html": {
   "published": "2026-10-30",
@@ -731,8 +731,8 @@
  },
  "src/sections/seasonal/section.json": {
   "published": "2026-10-30",
-  "modified": "2026-11-02",
-  "hash": "5bc1c9507a49c61ab6bb1e488c2ec0e1"
+  "modified": "2026-11-16",
+  "hash": "6fa73445044dd900721c73dba06868fc"
  },
  "src/sections/stains/guides/baby-clothes.html": {
   "published": "2026-11-04",
@@ -776,8 +776,8 @@
  },
  "src/sections/stains/section.json": {
   "published": "2026-10-30",
-  "modified": "2026-11-04",
-  "hash": "424591f72027f604021f06dc33556380"
+  "modified": "2026-11-16",
+  "hash": "e8553b78a27a18847a59c07ff61ea39f"
  },
  "src/sections/wall-tv/guides/compare.html": {
   "published": "2026-11-02",
@@ -796,8 +796,8 @@
  },
  "src/sections/wall-tv/section.json": {
   "published": "2026-11-02",
-  "modified": "2026-11-02",
-  "hash": "d3628605bfc967d985bd160883850a2b"
+  "modified": "2026-11-16",
+  "hash": "8934148de0a4c2b7db3ba6b41aed6ddd"
  },
  "src/sections/winter-home/guides/condensation.html": {
   "published": "2026-11-07",
@@ -826,7 +826,7 @@
  },
  "src/sections/winter-home/section.json": {
   "published": "2026-11-07",
-  "modified": "2026-11-07",
-  "hash": "fc174b55d91bb140e6f4d340feaec433"
+  "modified": "2026-11-16",
+  "hash": "30320cfe2ecca2ca0e8ed028bfaa508f"
  }
 }

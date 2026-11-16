@@ -213,6 +213,25 @@ def read_sections():
     return sorted(sections, key=lambda s: s["order"])
 
 
+# 첫 화면·전체 메뉴 묶음 순서. 새 메뉴는 section.json "sub"에 이 중 하나를 넣는다.
+SUBGROUPS = [
+    ("요리·음식", "cook", ["조리 시간표", "비율·계량", "재료 고르기·보관", "제철·명절"]),
+    ("생활·살림", "life", ["청소·세탁", "쓰레기 버리기", "집 관리·이사"]),
+]
+
+
+def grouped(sections):
+    """[(대분류, 앵커, [(소분류, [메뉴…])…])…] — 소분류 안은 section order 순."""
+    known = {sub for _, _, subs in SUBGROUPS for sub in subs}
+    for s in sections:
+        if s.get("sub") not in known:
+            raise SystemExit(f"section.json sub 값 확인 필요: {s['path']} → {s.get('sub')}")
+    return [
+        (g, anchor, [(sub, [s for s in sections if s["sub"] == sub]) for sub in subs])
+        for g, anchor, subs in SUBGROUPS
+    ]
+
+
 def layout(*, title, description, path, body, sections, json_ld=None, page_title=None, noindex=False):
     canonical = SITE_URL + path
     full_title = page_title or f"{title} | {SITE_NAME}"
@@ -231,9 +250,24 @@ def layout(*, title, description, path, body, sections, json_ld=None, page_title
         head_extra.append(
             '<script type="application/ld+json">' + json.dumps(json_ld, ensure_ascii=False) + "</script>"
         )
-    nav = "".join(
-        f'<a href="{url(s["path"])}"{" aria-current=\"page\"" if path.startswith(s["path"]) else ""}>{esc(s["short"])}</a>'
-        for s in sections
+    panel = "".join(
+        f'<div class="am-group"><p class="am-title">{esc(g)}</p>'
+        + "".join(
+            f'<p class="am-sub">{esc(sub)}</p><ul>'
+            + "".join(
+                f'<li><a href="{url(s["path"])}"{" aria-current=\"page\"" if path.startswith(s["path"]) else ""}>'
+                f'<span aria-hidden="true">{esc(s["icon"])}</span>{esc(s["short"])}</a></li>'
+                for s in items
+            )
+            + "</ul>"
+            for sub, items in subs
+        )
+        + "</div>"
+        for g, _, subs in grouped(sections)
+    )
+    nav = (
+        f'<details class="allmenu"><summary>☰ 전체 메뉴</summary><div class="am-panel">{panel}</div></details>'
+        + "".join(f'<a class="grp-link" href="{url("/")}#{a}">{esc(g)}</a>' for g, a, _ in SUBGROUPS)
     )
     return f"""<!doctype html>
 <html lang="ko">
@@ -395,18 +429,20 @@ def search_index(sections):
 
 def build_home(sections):
     data = month_data(sections)
-    groups = {}
-    for s in sections:
-        groups.setdefault(s["group"], []).append(s)
     blocks = "\n".join(
-        f'<section class="menu-list"><h2>{esc(g)}</h2><ul>'
+        f'<section class="tile-group" id="{anchor}"><h2>{esc(g)}</h2>'
         + "".join(
-            f'<li><a href="{url(s["path"])}"><strong>{esc(s["title"])}</strong><span>{esc(s["card"])}</span></a>'
-            f'<em>{len(s["items"])}</em></li>'
-            for s in items
+            f'<h3 class="tile-sub">{esc(sub)}</h3><ul class="tiles">'
+            + "".join(
+                f'<li><a href="{url(s["path"])}" title="{esc(s["title"])}"><span class="ti" aria-hidden="true">{esc(s["icon"])}</span>'
+                f'<b>{esc(s["short"])}</b></a></li>'
+                for s in items
+            )
+            + "</ul>"
+            for sub, items in subs
         )
-        + "</ul></section>"
-        for g, items in groups.items()
+        + "</section>"
+        for g, anchor, subs in grouped(sections)
     )
     # 메뉴마다 돌아가며 하나씩 골라 홈 가이드 목록이 한 메뉴에 쏠리지 않게 한다.
     picked, depth = [], 0
@@ -425,7 +461,7 @@ def build_home(sections):
   <p class="gempty" id="gempty" hidden>찾는 항목이 없어요. 짧게 한 단어로 검색해 보세요.</p>
 </section>
 {month_html(data, date.today().month)}
-<div class="menu-cols">
+<div class="tile-cols">
 {blocks}
 </div>
 <section class="menu-list guides-list">
