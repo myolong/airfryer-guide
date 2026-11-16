@@ -229,6 +229,11 @@
   "modified": "2026-11-03",
   "hash": "bd544f3327c11fefe228c03f2f00a2bb"
  },
+ "src/sections/bulky-waste/guides/clothes-shoes.html": {
+  "published": "2026-11-16",
+  "modified": "2026-11-16",
+  "hash": "f5eda40b92ba7fd8d6132396df6aafc1"
+ },
  "src/sections/bulky-waste/guides/confusing-items.html": {
   "published": "2026-10-30",
   "modified": "2026-11-07",
@@ -256,8 +261,8 @@
  },
  "src/sections/bulky-waste/items.json": {
   "published": "2026-10-30",
-  "modified": "2026-11-07",
-  "hash": "15d359f2f6d5411a3dce7365df351eec"
+  "modified": "2026-11-16",
+  "hash": "34228f8b91b984c3a2a54db24550ea52"
  },
  "src/sections/bulky-waste/section.json": {
   "published": "2026-10-30",
@@ -568,6 +573,21 @@
   "published": "2026-11-10",
   "modified": "2026-11-10",
   "hash": "fa4ef9940adb4cd577008c80a1e0da69"
+ },
+ "src/sections/recycling/guides/basics.html": {
+  "published": "2026-11-16",
+  "modified": "2026-11-16",
+  "hash": "e3ad9e5f2062063a0542de7e3207dbab"
+ },
+ "src/sections/recycling/items.json": {
+  "published": "2026-11-16",
+  "modified": "2026-11-16",
+  "hash": "dd26ac64069289c6baff858b72fde1a0"
+ },
+ "src/sections/recycling/section.json": {
+  "published": "2026-11-16",
+  "modified": "2026-11-16",
+  "hash": "c9d930711024563fcd97a40d8cd8cc5a"
  },
  "src/sections/replace-cycle/guides/bathroom-kitchen.html": {
   "published": "2026-11-12",

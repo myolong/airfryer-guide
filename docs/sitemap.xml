@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://salimdict.com/</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://salimdict.com/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://salimdict.com/airfryer/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://salimdict.com/microwave/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://salimdict.com/rice-water/</loc><lastmod>2026-11-09</lastmod></url>
@@ -17,8 +17,9 @@
   <url><loc>https://salimdict.com/stains/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://salimdict.com/appliance-cleaning/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://salimdict.com/houseplants/</loc><lastmod>2026-11-07</lastmod></url>
-  <url><loc>https://salimdict.com/bulky-waste/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://salimdict.com/bulky-waste/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://salimdict.com/food-waste/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://salimdict.com/recycling/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://salimdict.com/wall-tv/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://salimdict.com/clothes-care/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://salimdict.com/laundry-symbols/</loc><lastmod>2026-11-11</lastmod></url>
@@ -107,9 +108,11 @@
   <url><loc>https://salimdict.com/bulky-waste/moving-disposal/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://salimdict.com/bulky-waste/confusing-items/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/bulky-waste/hazardous-items/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://salimdict.com/bulky-waste/clothes-shoes/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://salimdict.com/food-waste/basics/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/food-waste/fruit-peels/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://salimdict.com/food-waste/odor-flies/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://salimdict.com/recycling/basics/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://salimdict.com/wall-tv/compare/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://salimdict.com/wall-tv/install-order/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://salimdict.com/clothes-care/seasonal-swap/</loc><lastmod>2026-11-02</lastmod></url>
@@ -136,7 +139,7 @@
   <url><loc>https://salimdict.com/move-in/handover/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://salimdict.com/replace-cycle/bathroom-kitchen/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://salimdict.com/replace-cycle/bedroom-appliance/</loc><lastmod>2026-11-12</lastmod></url>
-  <url><loc>https://salimdict.com/about/</loc><lastmod>2026-11-13</lastmod></url>
-  <url><loc>https://salimdict.com/privacy/</loc><lastmod>2026-11-13</lastmod></url>
-  <url><loc>https://salimdict.com/contact/</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://salimdict.com/about/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://salimdict.com/privacy/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://salimdict.com/contact/</loc><lastmod>2026-11-16</lastmod></url>
 </urlset>
