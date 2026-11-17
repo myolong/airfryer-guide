@@ -296,8 +296,8 @@
  },
  "src/sections/clothes-care/section.json": {
   "published": "2026-11-02",
-  "modified": "2026-11-16",
-  "hash": "db9969cf9d6da5b4f8fd7731bd2b224a"
+  "modified": "2026-11-17",
+  "hash": "355651f065da1184b06ed75551606c68"
  },
  "src/sections/expiry-date/guides/label-basics.html": {
   "published": "2026-11-11",
@@ -573,6 +573,36 @@
   "published": "2026-11-10",
   "modified": "2026-11-16",
   "hash": "4611d096c3d0543e690b30a31a80deda"
+ },
+ "src/sections/organize/guides/basics.html": {
+  "published": "2026-11-17",
+  "modified": "2026-11-17",
+  "hash": "8d2fa8194e1008427737beb2531d5f80"
+ },
+ "src/sections/organize/guides/closet-entrance.html": {
+  "published": "2026-11-17",
+  "modified": "2026-11-17",
+  "hash": "9312b5d6e84c530dc3fcd681ecfee1a2"
+ },
+ "src/sections/organize/guides/kitchen.html": {
+  "published": "2026-11-17",
+  "modified": "2026-11-17",
+  "hash": "9fb1cc6c160ac13d77215e743a5e6beb"
+ },
+ "src/sections/organize/guides/small-spaces.html": {
+  "published": "2026-11-17",
+  "modified": "2026-11-17",
+  "hash": "2843287aae1dee582de7f6fcae0df7ce"
+ },
+ "src/sections/organize/items.json": {
+  "published": "2026-11-17",
+  "modified": "2026-11-17",
+  "hash": "bb3b3a73ef2a1b2ea7e236f24f39a7e5"
+ },
+ "src/sections/organize/section.json": {
+  "published": "2026-11-17",
+  "modified": "2026-11-17",
+  "hash": "9cf32a5412dea1806ff2c5eff26cf418"
  },
  "src/sections/recycling/guides/basics.html": {
   "published": "2026-11-16",
