@@ -156,13 +156,13 @@
  },
  "src/sections/boil-times/guides/noodles-basics.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "6fd143b7ceccef8646a9a8b4579a357b"
+  "modified": "2026-11-20",
+  "hash": "8e51a5c072ab48ce331eae0098a068b4"
  },
  "src/sections/boil-times/guides/pasta.html": {
   "published": "2026-10-30",
-  "modified": "2026-11-09",
-  "hash": "65f88353bb6d44f23aa2a4e3064b52fe"
+  "modified": "2026-11-20",
+  "hash": "77ec14cc39df3d805091b0ce77dc651d"
  },
  "src/sections/boil-times/guides/somen-noodles.html": {
   "published": "2026-10-30",
@@ -181,18 +181,18 @@
  },
  "src/sections/broth/guides/anchovy-kelp.html": {
   "published": "2026-11-04",
-  "modified": "2026-11-04",
-  "hash": "5e580635968e88c779e4391183695d99"
+  "modified": "2026-11-20",
+  "hash": "37575bcf2745ae3a8ae06a34a3d2444f"
  },
  "src/sections/broth/guides/meat-bone.html": {
   "published": "2026-11-04",
-  "modified": "2026-11-04",
-  "hash": "cb515ebf6e218a1ad481042e80edf643"
+  "modified": "2026-11-20",
+  "hash": "253c6a80370b8c5db1684781d1b7ada9"
  },
  "src/sections/broth/guides/storage.html": {
   "published": "2026-11-04",
-  "modified": "2026-11-07",
-  "hash": "9bf7d9b2cbd98268984557ca72a20c6c"
+  "modified": "2026-11-20",
+  "hash": "4a5515bdf936040029e0804c38338d66"
  },
  "src/sections/broth/items.json": {
   "published": "2026-11-04",
@@ -431,8 +431,8 @@
  },
  "src/sections/leftovers/guides/delivery.html": {
   "published": "2026-11-12",
-  "modified": "2026-11-12",
-  "hash": "574ea46c87fe7e7d19cfb1dae42643ee"
+  "modified": "2026-11-20",
+  "hash": "b7ffb90ec29a554f3fda1ffbb6274d6d"
  },
  "src/sections/leftovers/items.json": {
   "published": "2026-11-12",
@@ -446,13 +446,13 @@
  },
  "src/sections/measure/guides/basics.html": {
   "published": "2026-11-03",
-  "modified": "2026-11-03",
-  "hash": "87778fb78c9ad1e0c207d05abab0bc15"
+  "modified": "2026-11-20",
+  "hash": "00b72cb59e4dcca2759ecff208ef9854"
  },
  "src/sections/measure/guides/weights.html": {
   "published": "2026-11-03",
-  "modified": "2026-11-03",
-  "hash": "05863686ace3c95db1ac9acf25fb4ab8"
+  "modified": "2026-11-20",
+  "hash": "0a18ac76ddf0798f54faab492d1ab6b2"
  },
  "src/sections/measure/items.json": {
   "published": "2026-11-03",
@@ -466,18 +466,18 @@
  },
  "src/sections/meat-cuts/guides/beef-cuts.html": {
   "published": "2026-11-07",
-  "modified": "2026-11-07",
-  "hash": "a398f0806bf74d6fcf427221a190aab8"
+  "modified": "2026-11-20",
+  "hash": "5297c3919b503da61c3867128f82189a"
  },
  "src/sections/meat-cuts/guides/chicken-cuts.html": {
   "published": "2026-11-07",
-  "modified": "2026-11-07",
-  "hash": "18e4aa539e3b018369f0e82587016903"
+  "modified": "2026-11-20",
+  "hash": "87ecce8c1c98f55a59f71c79e1c9416f"
  },
  "src/sections/meat-cuts/guides/pork-cuts.html": {
   "published": "2026-11-07",
-  "modified": "2026-11-07",
-  "hash": "c5768b52b54af4f6d37fe2f2ee1a4a6b"
+  "modified": "2026-11-20",
+  "hash": "ddf8cb5b816bd0e52e767dfe54307d28"
  },
  "src/sections/meat-cuts/items.json": {
   "published": "2026-11-07",
@@ -641,8 +641,8 @@
  },
  "src/sections/rice-water/guides/brown-rice.html": {
   "published": "2026-10-30",
-  "modified": "2026-11-09",
-  "hash": "295f40f7e926eace62acddc3268065b9"
+  "modified": "2026-11-20",
+  "hash": "cbcbf977ede36219c44d89255133849a"
  },
  "src/sections/rice-water/guides/fix-rice.html": {
   "published": "2026-10-30",
@@ -701,13 +701,13 @@
  },
  "src/sections/sauce/guides/meat-marinade.html": {
   "published": "2026-11-05",
-  "modified": "2026-11-05",
-  "hash": "9112c618033c770173d0b1d561265306"
+  "modified": "2026-11-20",
+  "hash": "b66587d5ef1d23ed3099de0a4e030a88"
  },
  "src/sections/sauce/guides/storage.html": {
   "published": "2026-11-05",
-  "modified": "2026-11-07",
-  "hash": "4fa67f428b9f76352fc2387cfb1b34fa"
+  "modified": "2026-11-20",
+  "hash": "19b77f6c6ce641ad706fd44a0755cfa4"
  },
  "src/sections/sauce/items.json": {
   "published": "2026-11-05",
@@ -726,8 +726,8 @@
  },
  "src/sections/seasonal/guides/fruit-cheong.html": {
   "published": "2026-11-02",
-  "modified": "2026-11-07",
-  "hash": "fb0ff879b11e3069ee94164307d76df5"
+  "modified": "2026-11-20",
+  "hash": "81efab0ee0487359d69115be83270d34"
  },
  "src/sections/seasonal/guides/kimjang.html": {
   "published": "2026-11-02",
@@ -741,8 +741,8 @@
  },
  "src/sections/seasonal/guides/spring-produce.html": {
   "published": "2026-10-30",
-  "modified": "2026-11-07",
-  "hash": "14ef4c0dcae2eba511e137476e399e09"
+  "modified": "2026-11-20",
+  "hash": "202ab07843adc47016522550b334d0c3"
  },
  "src/sections/seasonal/guides/summer-produce.html": {
   "published": "2026-10-30",
