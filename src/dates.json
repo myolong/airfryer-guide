@@ -206,18 +206,18 @@
  },
  "src/sections/bugs/guides/cockroach.html": {
   "published": "2026-11-03",
-  "modified": "2026-11-03",
-  "hash": "187e5217c7926f4160d647e7ac091a3a"
+  "modified": "2026-11-20",
+  "hash": "2b88b2f520ca657d9229ba01ddba46bc"
  },
  "src/sections/bugs/guides/fall-bugs.html": {
   "published": "2026-11-03",
-  "modified": "2026-11-03",
-  "hash": "61bfdec23bb35e14565638c9b43b398d"
+  "modified": "2026-11-20",
+  "hash": "f0fb6b2d0eac7d1a58bd23d703081b60"
  },
  "src/sections/bugs/guides/flies.html": {
   "published": "2026-11-03",
-  "modified": "2026-11-03",
-  "hash": "f1c80c4d4f841711a943582fdf4cc8ba"
+  "modified": "2026-11-20",
+  "hash": "11cf85bfb4345c646245f9da4efb51dc"
  },
  "src/sections/bugs/items.json": {
   "published": "2026-11-03",
@@ -336,18 +336,18 @@
  },
  "src/sections/food-waste/guides/basics.html": {
   "published": "2026-10-30",
-  "modified": "2026-11-07",
-  "hash": "772d691c17b393c9c14533745209cb41"
+  "modified": "2026-11-20",
+  "hash": "8370dc935e4fc260429393d710b10ea7"
  },
  "src/sections/food-waste/guides/fruit-peels.html": {
   "published": "2026-10-30",
-  "modified": "2026-11-07",
-  "hash": "122b071c9e68a334ce122be02dce43b3"
+  "modified": "2026-11-20",
+  "hash": "074d5e53c641032c1470e221b5172cea"
  },
  "src/sections/food-waste/guides/odor-flies.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "baca67e5c35f1bf5f01578e3fa4348b8"
+  "modified": "2026-11-20",
+  "hash": "047859f9f64ce2cad4463b7494dc5dec"
  },
  "src/sections/food-waste/items.json": {
   "published": "2026-10-30",
@@ -381,13 +381,13 @@
  },
  "src/sections/houseplants/guides/easy-plants.html": {
   "published": "2026-10-30",
-  "modified": "2026-11-07",
-  "hash": "7cc22dd75135f260503909140a4f0b39"
+  "modified": "2026-11-20",
+  "hash": "a86b61a8e05d78942c419654c9d73d42"
  },
  "src/sections/houseplants/guides/overwatering-signs.html": {
   "published": "2026-10-30",
-  "modified": "2026-11-07",
-  "hash": "b96c1a256c45beab662afcaa0c1270c6"
+  "modified": "2026-11-20",
+  "hash": "25c5ebdd20daa19311d61655c6772860"
  },
  "src/sections/houseplants/guides/watering-basics.html": {
   "published": "2026-10-30",
@@ -621,13 +621,13 @@
  },
  "src/sections/replace-cycle/guides/bathroom-kitchen.html": {
   "published": "2026-11-12",
-  "modified": "2026-11-12",
-  "hash": "c15e6de52f15ba4bf16bd3bd2eab6cb3"
+  "modified": "2026-11-20",
+  "hash": "934568ec90ad6bec12c216a02255e453"
  },
  "src/sections/replace-cycle/guides/bedroom-appliance.html": {
   "published": "2026-11-12",
-  "modified": "2026-11-12",
-  "hash": "857c8149a9e91243b8fdf8aa554cae66"
+  "modified": "2026-11-20",
+  "hash": "ee964d882bac0b4579fad7f7dde0326d"
  },
  "src/sections/replace-cycle/items.json": {
   "published": "2026-11-12",
@@ -816,8 +816,8 @@
  },
  "src/sections/wall-tv/guides/install-order.html": {
   "published": "2026-11-02",
-  "modified": "2026-11-02",
-  "hash": "ffb5a8d8e76ac98c935d037c75b75338"
+  "modified": "2026-11-20",
+  "hash": "d748d5907d8de59246a2f2ba7ccc174a"
  },
  "src/sections/wall-tv/items.json": {
   "published": "2026-11-02",
