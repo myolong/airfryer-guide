@@ -86,8 +86,8 @@
  },
  "src/sections/appliance-cleaning/guides/dryer-not-drying.html": {
   "published": "2026-11-13",
-  "modified": "2026-11-13",
-  "hash": "4c0b0178de360cca0476845cc7e9562c"
+  "modified": "2026-11-20",
+  "hash": "879a477131ed89fdbaac61b508da4a0c"
  },
  "src/sections/appliance-cleaning/guides/fridge-cleaning.html": {
   "published": "2026-10-30",
@@ -96,23 +96,23 @@
  },
  "src/sections/appliance-cleaning/guides/humidifier.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "79f660527e1fc451e70cf77344729ba4"
+  "modified": "2026-11-20",
+  "hash": "10d22c45fd05682a1cf7cb2694362970"
  },
  "src/sections/appliance-cleaning/guides/range-hood.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "7c57e02dfb9ce1db238c0224f2f2251e"
+  "modified": "2026-11-20",
+  "hash": "8d0c1f08f1dd9064e6397e03cbef1034"
  },
  "src/sections/appliance-cleaning/guides/robot-vacuum.html": {
   "published": "2026-11-13",
-  "modified": "2026-11-13",
-  "hash": "dd3a3487dc3c34082d9bb72bb22be5a7"
+  "modified": "2026-11-20",
+  "hash": "a736b9cb0d8c47e8a11de12f5308d2d0"
  },
  "src/sections/appliance-cleaning/guides/washing-machine-tub.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "2979f8f41e00e17eda786a1fa0f65fd9"
+  "modified": "2026-11-20",
+  "hash": "f347f37031b2c87a3d4743e89d929ec0"
  },
  "src/sections/appliance-cleaning/items.json": {
   "published": "2026-10-30",
@@ -271,23 +271,23 @@
  },
  "src/sections/clothes-care/guides/knit-wool.html": {
   "published": "2026-11-02",
-  "modified": "2026-11-02",
-  "hash": "dbe249e86a31c0da005a2e98cbbcab4f"
+  "modified": "2026-11-20",
+  "hash": "4547e99fc86a29bc45a4f4372607ac04"
  },
  "src/sections/clothes-care/guides/padding.html": {
   "published": "2026-11-02",
-  "modified": "2026-11-02",
-  "hash": "477938c8589a94850b548c4e0041e698"
+  "modified": "2026-11-20",
+  "hash": "29a862e723472c2f17fd12c9a899e33c"
  },
  "src/sections/clothes-care/guides/seasonal-swap.html": {
   "published": "2026-11-02",
-  "modified": "2026-11-02",
-  "hash": "bf9e42c74cf07638c2117e6daa028470"
+  "modified": "2026-11-20",
+  "hash": "ce456a6c3f3e9a70b3a154424e58e6d6"
  },
  "src/sections/clothes-care/guides/winter-bedding.html": {
   "published": "2026-11-02",
-  "modified": "2026-11-02",
-  "hash": "0c076facb8c227c228ae3813c7666306"
+  "modified": "2026-11-20",
+  "hash": "32f127d0956725136c8fe4a79a43ae0e"
  },
  "src/sections/clothes-care/items.json": {
   "published": "2026-11-02",
@@ -411,8 +411,8 @@
  },
  "src/sections/laundry-symbols/guides/symbol-guide.html": {
   "published": "2026-11-11",
-  "modified": "2026-11-11",
-  "hash": "8f848ed072669f35409a618a38d250fe"
+  "modified": "2026-11-20",
+  "hash": "90d20929ce2f69c9c78cca2aa9f9db35"
  },
  "src/sections/laundry-symbols/items.json": {
   "published": "2026-11-11",
@@ -526,8 +526,8 @@
  },
  "src/sections/mold/guides/limescale.html": {
   "published": "2026-11-06",
-  "modified": "2026-11-06",
-  "hash": "5af5f3814ec39827bf6f53a80cb35614"
+  "modified": "2026-11-20",
+  "hash": "c16d4f95d8ecebc04efd34316544d144"
  },
  "src/sections/mold/guides/window-veranda.html": {
   "published": "2026-11-06",
@@ -766,13 +766,13 @@
  },
  "src/sections/stains/guides/baby-clothes.html": {
   "published": "2026-11-04",
-  "modified": "2026-11-04",
-  "hash": "8d700cc2af2af7aad20e684b42092452"
+  "modified": "2026-11-20",
+  "hash": "e0dc02a546e046403dbd2185b33d7695"
  },
  "src/sections/stains/guides/kimchi-stain.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "6e7a3751f78fc493ab06aaadd8656255"
+  "modified": "2026-11-20",
+  "hash": "9c7e7ee3fde4beae95ca2fd214afbc9a"
  },
  "src/sections/stains/guides/oxygen-bleach.html": {
   "published": "2026-10-30",
@@ -781,8 +781,8 @@
  },
  "src/sections/stains/guides/sofa-mattress.html": {
   "published": "2026-11-04",
-  "modified": "2026-11-04",
-  "hash": "f49be0f75263cda79eb37efcdefdc694"
+  "modified": "2026-11-20",
+  "hash": "553f36291ccfe10fe6e7abaf43480933"
  },
  "src/sections/stains/guides/stain-basics.html": {
   "published": "2026-10-30",
@@ -791,13 +791,13 @@
  },
  "src/sections/stains/guides/white-sneakers.html": {
   "published": "2026-11-04",
-  "modified": "2026-11-04",
-  "hash": "178731431b9992a52eefce74d9279e68"
+  "modified": "2026-11-20",
+  "hash": "64a98cb4773bab0df633a627edcc1d9a"
  },
  "src/sections/stains/guides/yellow-sweat-stain.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "8fd0cfcba23bea29692058b8854b44ea"
+  "modified": "2026-11-20",
+  "hash": "59b6de2a79330e47b144984588c2cefc"
  },
  "src/sections/stains/items.json": {
   "published": "2026-10-30",
