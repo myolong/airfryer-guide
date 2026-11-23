@@ -314,6 +314,11 @@
   "modified": "2026-11-16",
   "hash": "7a47acc2098315c3e2b9ee0fa8defd5b"
  },
+ "src/sections/food-storage/guides/kimchi.html": {
+  "published": "2026-11-23",
+  "modified": "2026-11-23",
+  "hash": "2d2397a2e6f4f4d19c50a8f44dc6b9dc"
+ },
  "src/sections/food-storage/guides/meat-fish.html": {
   "published": "2026-11-09",
   "modified": "2026-11-09",
@@ -326,8 +331,8 @@
  },
  "src/sections/food-storage/items.json": {
   "published": "2026-11-09",
-  "modified": "2026-11-09",
-  "hash": "ff6bb5a155ba19c0ab6fe8188527bc3f"
+  "modified": "2026-11-23",
+  "hash": "1e3b911490001f33d0806a7743201827"
  },
  "src/sections/food-storage/section.json": {
   "published": "2026-11-09",
