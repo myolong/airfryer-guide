@@ -151,18 +151,18 @@
  },
  "src/sections/boil-times/guides/boiled-eggs.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "85824dc124e5b6db3d4cc24a7331654d"
+  "modified": "2026-11-23",
+  "hash": "e4c5011ac5837d467a44bf21bd59f965"
  },
  "src/sections/boil-times/guides/noodles-basics.html": {
   "published": "2026-10-30",
-  "modified": "2026-11-20",
-  "hash": "8e51a5c072ab48ce331eae0098a068b4"
+  "modified": "2026-11-23",
+  "hash": "a2ac11aa0f4424c5acd15fb11ed55fa0"
  },
  "src/sections/boil-times/guides/pasta.html": {
   "published": "2026-10-30",
-  "modified": "2026-11-20",
-  "hash": "77ec14cc39df3d805091b0ce77dc651d"
+  "modified": "2026-11-23",
+  "hash": "0e419eb5d2ccfcec044d2e488f41f029"
  },
  "src/sections/boil-times/guides/somen-noodles.html": {
   "published": "2026-10-30",
@@ -251,8 +251,8 @@
  },
  "src/sections/bulky-waste/guides/how-to-report.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "f3ed2bdcf78db16dba74e65bddd7b38f"
+  "modified": "2026-11-23",
+  "hash": "bc5278d9bfe04159024580ecfccbcd51"
  },
  "src/sections/bulky-waste/guides/moving-disposal.html": {
   "published": "2026-10-30",
@@ -661,18 +661,18 @@
  },
  "src/sections/rice-water/guides/mixed-grain-rice.html": {
   "published": "2026-10-30",
-  "modified": "2026-11-09",
-  "hash": "f76a8b3cf19dd8b1dcf764aa954e7afa"
+  "modified": "2026-11-23",
+  "hash": "91bda51bac18a1d32c4d21f6f42cd8bd"
  },
  "src/sections/rice-water/guides/pot-rice.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "aeb81db0d016f8bf44c3cae5034629e8"
+  "modified": "2026-11-23",
+  "hash": "afd1b82a3d8a179793085c059ab37cf9"
  },
  "src/sections/rice-water/guides/rice-cooker-modes.html": {
   "published": "2026-11-09",
-  "modified": "2026-11-09",
-  "hash": "186b38b84737d40410f275972bcac286"
+  "modified": "2026-11-23",
+  "hash": "72a98ded0017f9005e13d860ab343a18"
  },
  "src/sections/rice-water/guides/rice-storage.html": {
   "published": "2026-10-30",
@@ -681,8 +681,8 @@
  },
  "src/sections/rice-water/guides/soak-times.html": {
   "published": "2026-11-09",
-  "modified": "2026-11-09",
-  "hash": "de0c25650cf7f4f2372eeae05b86749c"
+  "modified": "2026-11-23",
+  "hash": "2e69bfc8d33ccabbbcc73348a30f0978"
  },
  "src/sections/rice-water/guides/sotbap.html": {
   "published": "2026-11-09",
@@ -791,8 +791,8 @@
  },
  "src/sections/stains/guides/stain-basics.html": {
   "published": "2026-10-30",
-  "modified": "2026-10-30",
-  "hash": "1194f2774cc5591c84af39683254ad0e"
+  "modified": "2026-11-23",
+  "hash": "9950d3267eed23f77bcf3e2656509d7c"
  },
  "src/sections/stains/guides/white-sneakers.html": {
   "published": "2026-11-04",
