@@ -649,6 +649,11 @@
   "modified": "2026-11-20",
   "hash": "cbcbf977ede36219c44d89255133849a"
  },
+ "src/sections/rice-water/guides/chapssal-rice.html": {
+  "published": "2026-11-26",
+  "modified": "2026-11-26",
+  "hash": "f920629d7f96b2a492d39d02053da0e3"
+ },
  "src/sections/rice-water/guides/fix-rice.html": {
   "published": "2026-10-30",
   "modified": "2026-10-30",
@@ -691,8 +696,8 @@
  },
  "src/sections/rice-water/items.json": {
   "published": "2026-10-30",
-  "modified": "2026-11-09",
-  "hash": "080df8065c545e21f1f002b33a7389a2"
+  "modified": "2026-11-26",
+  "hash": "7c184ddfe205fe19eea77727b290fd5e"
  },
  "src/sections/rice-water/section.json": {
   "published": "2026-10-30",

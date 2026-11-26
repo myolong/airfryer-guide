@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://salimdict.com/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://salimdict.com/</loc><lastmod>2026-11-26</lastmod></url>
   <url><loc>https://salimdict.com/airfryer/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://salimdict.com/microwave/</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://salimdict.com/rice-water/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://salimdict.com/rice-water/</loc><lastmod>2026-11-26</lastmod></url>
   <url><loc>https://salimdict.com/boil-times/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://salimdict.com/seasonal/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://salimdict.com/measure/</loc><lastmod>2026-11-20</lastmod></url>
@@ -56,6 +56,7 @@
   <url><loc>https://salimdict.com/rice-water/sotbap/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://salimdict.com/rice-water/leftover-rice/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://salimdict.com/rice-water/soak-times/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://salimdict.com/rice-water/chapssal-rice/</loc><lastmod>2026-11-26</lastmod></url>
   <url><loc>https://salimdict.com/boil-times/boiled-eggs/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://salimdict.com/boil-times/somen-noodles/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://salimdict.com/boil-times/pasta/</loc><lastmod>2026-11-23</lastmod></url>
@@ -145,7 +146,7 @@
   <url><loc>https://salimdict.com/move-in/handover/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://salimdict.com/replace-cycle/bathroom-kitchen/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://salimdict.com/replace-cycle/bedroom-appliance/</loc><lastmod>2026-11-20</lastmod></url>
-  <url><loc>https://salimdict.com/about/</loc><lastmod>2026-11-23</lastmod></url>
-  <url><loc>https://salimdict.com/privacy/</loc><lastmod>2026-11-23</lastmod></url>
-  <url><loc>https://salimdict.com/contact/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://salimdict.com/about/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://salimdict.com/privacy/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://salimdict.com/contact/</loc><lastmod>2026-11-26</lastmod></url>
 </urlset>
