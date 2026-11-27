@@ -299,15 +299,25 @@
   "modified": "2026-11-17",
   "hash": "355651f065da1184b06ed75551606c68"
  },
+ "src/sections/expiry-date/guides/eggs.html": {
+  "published": "2026-11-27",
+  "modified": "2026-11-27",
+  "hash": "c641838e058df69363e73a313d96d6f7"
+ },
  "src/sections/expiry-date/guides/label-basics.html": {
   "published": "2026-11-11",
   "modified": "2026-11-11",
   "hash": "6450fe678ac9c37448b2c3afff99f815"
  },
+ "src/sections/expiry-date/guides/spoiled-signs.html": {
+  "published": "2026-11-27",
+  "modified": "2026-11-27",
+  "hash": "3e28d14020799b4ba4744bfebc49c89d"
+ },
  "src/sections/expiry-date/items.json": {
   "published": "2026-11-11",
-  "modified": "2026-11-11",
-  "hash": "2191f31fbc9e2f19d28287645a3197b0"
+  "modified": "2026-11-27",
+  "hash": "9e9b97d3c267af767f69270c176ee9f1"
  },
  "src/sections/expiry-date/section.json": {
   "published": "2026-11-11",
@@ -414,15 +424,25 @@
   "modified": "2026-11-16",
   "hash": "bc050de67d0ca057d45a7026b13c8850"
  },
+ "src/sections/laundry-symbols/guides/dry-clean-label.html": {
+  "published": "2026-11-27",
+  "modified": "2026-11-27",
+  "hash": "d41d96e9052ca7f5a88070bdbc892b72"
+ },
  "src/sections/laundry-symbols/guides/symbol-guide.html": {
   "published": "2026-11-11",
   "modified": "2026-11-20",
   "hash": "90d20929ce2f69c9c78cca2aa9f9db35"
  },
+ "src/sections/laundry-symbols/guides/wash-courses.html": {
+  "published": "2026-11-27",
+  "modified": "2026-11-27",
+  "hash": "fe8be18333b424a14194d2e7f024187c"
+ },
  "src/sections/laundry-symbols/items.json": {
   "published": "2026-11-11",
-  "modified": "2026-11-11",
-  "hash": "0edd81da2d2b7d2c61825a907fac0041"
+  "modified": "2026-11-27",
+  "hash": "6901c734d007c1c8b56f382540072d69"
  },
  "src/sections/laundry-symbols/section.json": {
   "published": "2026-11-11",
@@ -614,10 +634,20 @@
   "modified": "2026-11-16",
   "hash": "e3ad9e5f2062063a0542de7e3207dbab"
  },
+ "src/sections/recycling/guides/kitchen-items.html": {
+  "published": "2026-11-27",
+  "modified": "2026-11-27",
+  "hash": "1662dab2d8760a5b5e5eabc3aee66d65"
+ },
+ "src/sections/recycling/guides/parcel-packaging.html": {
+  "published": "2026-11-27",
+  "modified": "2026-11-27",
+  "hash": "96d944ec366f91c46a302a5048269b2c"
+ },
  "src/sections/recycling/items.json": {
   "published": "2026-11-16",
-  "modified": "2026-11-16",
-  "hash": "dd26ac64069289c6baff858b72fde1a0"
+  "modified": "2026-11-27",
+  "hash": "e2e1a3c427234253e94f0706b91b1084"
  },
  "src/sections/recycling/section.json": {
   "published": "2026-11-16",
